@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header'
+import Navbar from './components/Navbar';
+import bImage from "./images/WEXSTARTUPbacground.png";
+
+const imageStyle = {
+  width: '100%',
+  position: 'absolute',
+  top: '0',
+  left: '0',
+  zIndex: '1',
+}
+
+const navStyle = {
+  position: 'relative',
+  zIndex: '5',
+  color: 'white',
+}
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container" style={{position: 'relative'}}>
+        <img src={bImage} style={imageStyle}></img>
+      <Navbar style={navStyle}/>
+      {/* <Header title='Startup@Brown'/> */}
     </div>
   );
 }
