@@ -1,3 +1,5 @@
+import epLogo from "../images/eplogo.png";
+
 const sendHome = (ev) => {
   ev.preventDefault();
   window.location.href='/';
@@ -18,13 +20,16 @@ const sendToSponsor = (ev) => {
   window.location.href='/sponsors.html';
   }
   
-const Navbar = (props) => {
+const Navbar = () => {
     return (
-        <div className="nav sticky-thc" style={props.style}>
-          <div className="navtitle sticky-thc" onClick={sendHome}>Startup@Brown</div>
-          <div className="navbutton sticky-thc" onClick={sendToSpeaker}>Speakers</div>
-          <div className="navbutton sticky-thc" onClick={sendToWorkshop}>Workshops</div>
-          <div className="navbutton sticky-thc" onClick={sendToSponsor}>Sponsors</div>
+        <div className="nav">
+              <img className="navLogo" src={epLogo}></img>
+              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Q&A</div>
+              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Companies/Sponsors</div>
+              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Recruiting Fair</div>
+              <div className="navbutton sticky-thc" onClick={sendToWorkshop}>Pitch Competition</div>
+              <div className="navbutton sticky-thc" onClick={sendToSpeaker}>Speakers Page</div>
+              <div className="navbutton sticky-thc" onClick={sendToSpeaker}>Home</div>
         </div>
     )
   }
