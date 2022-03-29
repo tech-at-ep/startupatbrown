@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import qrCode from "./images/qrcode.png";
+import backgroundImg from "./images/landingBackground.png";
 
 function App() {
   
   return (
-    <div className="container" style={{position: 'relative', backgroundColor: 'rgb(78,14,203)'}}>
+    <div className="container" style={{position: 'relative'}}>
       <Navbar />
       <div className='landingHeader'>
         <p className='header1style'>Startup@Brown x Women Empowerment</p>
@@ -50,30 +52,33 @@ function App() {
       <div className='learnMore'>
         <p className='learnMoreText'>Want to Learn More?<br />Check out our other pages for more info</p>
         <div className='learnMoreButtonsGrid'>
-          <div className='learnMoreButtons Row'>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Speakers</p>
-            </button>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Pitch Competition</p>
-            </button>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Recruiting Fair</p>
-            </button>
-          </div>
-          <div className='learnMoreButtons Row'>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Companies Represented & Sponsors</p>
-            </button>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Other Events</p>
-            </button>
-            <button className='learnMoreButton'>
-              <p className='learnMoreButtonText'>Q & A</p>
-            </button>
+          <div className='learnMoreButtonsColumn'>
+            <div className='learnMoreButtonsRow'>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Speakers</p>
+              </button>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Pitch Competition</p>
+              </button>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Recruiting Fair</p>
+              </button>
+            </div>
+            <div className='learnMoreButtonsRow'>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Companies Represented & Sponsors</p>
+              </button>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Other Events</p>
+              </button>
+              <button className='learnMoreButton'>
+                <p className='learnMoreButtonText'>Q&A</p>
+              </button>
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

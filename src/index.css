@@ -1,5 +1,17 @@
+html {
+    background: url(images/landingBackground.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
     margin: 0%;
+}
+
+.container {
+    background-position-y: top;
 }
 
 .nav {
@@ -53,7 +65,7 @@ body {
 }
 
 .headerButtonText {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 22.7071px;
@@ -102,7 +114,7 @@ body {
 }
 
 .header2style {
-    font-family: 'Inter';
+    font-family: Inter, Sans-Serif;
     font-style: normal;
     font-weight: 800;
     font-size: 73.6464px;
@@ -133,7 +145,7 @@ body {
 }
 
 .info1 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 40.1419px;
@@ -146,7 +158,7 @@ body {
 }
 
 .info2 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 25.0887px;
@@ -164,7 +176,7 @@ body {
     margin: auto;
     margin-top: 70px;
 
-    background: linear-gradient(143.28deg, #FFA800 15.39%, #FF1C96 95.79%);
+    background: linear-gradient(143.28deg, #FF9FC5, #BF1FD9 95.79%);
     background-blend-mode: screen;
     border-radius: 76.1024px;
     display: flex;
@@ -197,7 +209,7 @@ body {
 }
 
 .blobText {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16.6461px;
@@ -217,12 +229,12 @@ body {
 
 .apply {
     height: 500px;
-    background: rgba(146, 26, 208, 0.72);
+    background: rgba(146, 26, 208, 0.8);
     backdrop-filter: blur(27.5037px);
 }
 
 .applyHeader {
-    font-family: 'Inter';
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 42.1133px;
@@ -254,42 +266,44 @@ body {
 }
 
 .qrText1 {
-    font-family: 'Inter';
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 89.8565px;
     /* identical to box height, or 88px */
-    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), linear-gradient(91.49deg, #FFA900 0.28%, #FF5095 62.74%);
+    background: linear-gradient(#FF9FC5, #FF4EE6);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), linear-gradient(91.49deg, #FF9FC5 0.28%, #FF4EE6 62.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-blend-mode: overlay, screen;
-    text-shadow: 0px 0px 14.7038px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 0px 0px 14.7038px rgba(0, 0, 0, 0.4); */
     margin: auto;
+    margin-top: 5px;
 }
 
 .qrText2 {
-    font-family: 'Inter';
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 22.4641px;
+    font-size: 20.4641px;
     line-height: 27px;
     color: #FFFFFF;
     text-shadow: 0px 0px 4.49283px #8200FF;
+    margin-top: 0px;
 }
 
 .qrText3 {
-    font-family: 'Inter';
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20.9333px;
-    line-height: 25px;
-    background: linear-gradient(143.28deg, #FFA800 15.39%, #FF1C96 95.79%);
+    font-size: 18.9333px;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), linear-gradient(91.49deg, #FF9FC5 0.28%, #FF4EE6 62.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-blend-mode: lighten;
-    text-shadow: 0px 0px 4.79721px #8200FF;
+    /* text-shadow: 0px 0px 4.79721px #8200FF; */
 }
 
 .learnMore {
@@ -316,13 +330,18 @@ body {
 .learnMoreButtonsRow {
     display: flex;
     flex-direction: row;
+    margin: auto;
+}
+
+.learnMoreButtonsColumn {
+    display: flex;
+    flex-direction: column;
 }
 
 .learnMoreButton {
     width: 226.35px;
     height: 226.35px;
-    background: linear-gradient(to right, rgba(255, 168, 0, 0.91) 15.39%, rgba(255, 28, 150, 0.91) 95.79%);
-    background-blend-mode: lighten;
+    background: linear-gradient(143.28deg, #ED9CC8 5.39%, #ED22C7 60%);
     border-radius: 26.6077px;
     transition: 0.5s;
     background-size: 200% auto;
@@ -342,4 +361,37 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 3.46807px 3.46807px rgba(0, 0, 0, 0.25), 0px 0px 3.46807px #8200FF;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: auto;
+    background-color: #333333;
+    color: white;
+}
+
+.footerText {
+    text-align: left;
+    margin: 25px;
+}
+
+.footerLogoImage {
+    position: absolute;
+    height: 60px;
+    transition: 0.5s;
+}
+
+.footerLogo {
+    margin: 15px;
+    margin-left: 430px;
+}
+
+.footerTextBox {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: auto;
+    margin-left: 140px;
 }
