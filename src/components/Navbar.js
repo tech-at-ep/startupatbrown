@@ -1,4 +1,5 @@
 import epLogo from "../images/eplogo.png";
+import { Link } from "react-router-dom";
 
 const sendHome = (ev) => {
   ev.preventDefault();
@@ -7,7 +8,7 @@ const sendHome = (ev) => {
 
 const sendToSpeaker = (ev) => {
   ev.preventDefault();
-  window.location.href='/speakers.html';
+  window.location.href='/speakers';
   }
 
 const sendToWorkshop = (ev) => {
@@ -24,12 +25,12 @@ const Navbar = () => {
     return (
         <div className="nav">
               <img className="navLogo" src={epLogo}></img>
-              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Q&A</div>
-              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Companies/Sponsors</div>
-              <div className="navbutton sticky-thc" onClick={sendToSponsor}>Recruiting Fair</div>
-              <div className="navbutton sticky-thc" onClick={sendToWorkshop}>Pitch Competition</div>
-              <div className="navbutton sticky-thc" onClick={sendToSpeaker}>Speakers Page</div>
-              <div className="navbutton sticky-thc" onClick={sendToSpeaker}>Home</div>
+              <Link className="navbutton" to="/QA">Q&A</Link>
+              <Link className="navbutton" to="/schedule">Schedule</Link>
+              <Link className="navbutton" to="/recruiting">Recruiting Fair</Link>
+              <Link className="navbutton" to="/competition">Pitch Competition</Link>
+              <Link className="navbutton" to="/speakers">Speakers Page</Link>
+              <Link className="navbutton navHomeButton" to="/">Home</Link>
         </div>
     )
   }

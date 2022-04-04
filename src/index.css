@@ -21,7 +21,7 @@ body {
 }
 
 .navbutton {
-    width: 12%;
+    width: 15%;
     height: 75px;
     background-color: transparent;
     text-align: center;
@@ -30,10 +30,15 @@ body {
     font-weight: 700;
     font-size: 19.1674px;
     line-height: 140px;
+    text-decoration: none;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navHomeButton {
+    /* margin-left: 700px; */
 }
 
 .navbutton:hover {
@@ -50,6 +55,7 @@ body {
 .navLogo {
     position: absolute;
     width: 45px;
+    margin-right: 14%;
     height: 58.78px;
     left: 52px;
     top: 44px;
@@ -114,7 +120,7 @@ body {
 }
 
 .header2style {
-    font-family: Inter, Sans-Serif;
+    font-family: 'Inter', Sans-Serif;
     font-style: normal;
     font-weight: 800;
     font-size: 73.6464px;
@@ -231,6 +237,7 @@ body {
     height: 500px;
     background: rgba(146, 26, 208, 0.8);
     backdrop-filter: blur(27.5037px);
+    margin-bottom: 100px;
 }
 
 .applyHeader {
@@ -307,7 +314,7 @@ body {
 }
 
 .learnMore {
-    padding-top: 150px;
+    padding-top: 50px;
     height: 800px;
     text-align: center;
 }
@@ -370,6 +377,7 @@ body {
     margin: auto;
     background-color: #333333;
     color: white;
+    margin-top: 50px; 
 }
 
 .footerText {
@@ -394,4 +402,104 @@ body {
     height: 100px;
     margin: auto;
     margin-left: 140px;
+}
+
+.horizontalLine {
+    margin: auto;
+    margin-top: 40px;
+    height: 2px;
+    width: 580px;
+    /* edit this if you want */
+    background-color: #FF9A7D;
+}
+
+.speakersHeader {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(272.79deg, rgba(136,65,227, 1) 6.39%, rgba(36, 0, 101, 0.2) 99.69%);
+    background-blend-mode: screen;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.speakerBox {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+.speakerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 26px;
+    border: 0.5px solid #3604C2;
+    box-sizing: border-box;
+    filter: drop-shadow(20px 20px 4px rgba(46,45,67, 0.5));
+}
+
+.speakerName {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 97%;
+    color: white;
+}
+
+.speakerCompany {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 97%;
+    color: white;
+}
+
+.speakersRow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+}
+
+.keynoteSpeakers {
+    margin: auto;
+}
+
+.featuredSpeakersRow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+}
+
+.featuredSpeakers {
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 10px;
+    margin-left: 15%;
+  }
+
+.parallax {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
