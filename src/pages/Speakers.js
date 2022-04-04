@@ -21,6 +21,7 @@ import Jackson from '../images/Evan Jackson.jpeg';
 import Kurup from '../images/Meera Kurup EmpowerU.jpeg';
 import Schaeffer from '../images/Jack Schaeffer Eliza Sternlicht.jpeg';
 import Kroll from '../images/download.jpeg';
+import Tatiana from '../images/Tatiana.png';
 
 const Speakers = () => {
 
@@ -29,7 +30,7 @@ const Speakers = () => {
     {name: "Valentin Perez", title: "Monthly", headshot: Perez},
     {name: "Dave Margulius", title: "Quizlet", headshot: Margulius},
     {name: "Maggie Bachenberg", title: "Pointz", headshot: Pointz},
-    {name: "Christina Qi", title: "Domeyard LP", headshot: Qi},
+    {name: "Christina Qi", title: "Databento", headshot: Qi},
     {name: "Abbie Kohler", title: "ResusciTech", headshot: Kohler},
     {name: "Daniel Kraft", title: "Digital Health", headshot: Kraft},
     {name: "Beren Rana Oz", title: "Cohart", headshot: Cohart},
@@ -41,8 +42,8 @@ const Speakers = () => {
     {name: "Alex Rothburg", title: "Intus Care", headshot: Rothburg},
     {name: "Evan Jackson", title: "Intus Care", headshot: Jackson},
     {name: "Meera Kurup", title: "EmpowerU", headshot: Kurup},
-    {name: "Jack Schaeffer Eliza Sternlicht", title: "OWYN", headshot: Schaeffer},
-    {name: "Tatiana Mandis", title: "Cinemates", headshot: "https://asa-groundhandling.com/wp-content/uploads/2019/10/placeholder-person-square.png"},
+    {name: "Jack Schaeffer Eliza Sternlicht", title: "Medi Circle", headshot: Schaeffer},
+    {name: "Tatiana Mandis", title: "Cinemates", headshot: Tatiana},
     ]
 
   return(
@@ -55,14 +56,14 @@ const Speakers = () => {
         <p className="info1" style={{fontSize: '70px', paddingTop: '90px'}}>Speakers</p>
         <p className="info2" style={{fontSize: '30px'}}>We’ll have a series of talks by trailblazing founders,<br />entrepreneurs, and venture captialists</p>
       </div>
-      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '70px'}}>Keynote Speakers</p>
+      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '50px'}}>Keynote Speakers</p>
       <div className="keynoteSpeakers">
         <div className="speakersRow">
           <SpeakerBox photo={Kroll} name="Charlie Kroll" company="Lithic, fmr. Ellevest"/>
           <SpeakerBox photo="http://www.artnet.com/WebServices/images/ll00354lldUo0GFg9MECfDrCWvaHBOcCMqD/ad-reinhardt-black-square-(+another,-screenprint-on-paper;-2-works).jpg" name="?" company="?"/>
         </div>
       </div>
-      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '70px'}}>Featured Speakers</p>
+      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '50px'}}>Featured Speakers</p>
       <div className="grid-container">
         {membersArray.map((member) => (
           <SpeakerBox style={{width: '200px', height: '200px'}} name={member.name} company={member.title} photo={member.headshot}/>

@@ -320,7 +320,7 @@ body {
 }
 
 .learnMoreText {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 27.2543px;
@@ -348,26 +348,29 @@ body {
 .learnMoreButton {
     width: 226.35px;
     height: 226.35px;
-    background: linear-gradient(143.28deg, #ED9CC8 5.39%, #ED22C7 60%);
+    background: rgb(97,61,209);
     border-radius: 26.6077px;
     transition: 0.5s;
     background-size: 200% auto;
     margin: 20px;
+    border: none;
+    opacity: 0.8;
 }
 
 .learnMoreButton:hover {
-    background-position: right center;
     cursor: pointer;
+    width: 230px;
+    height: 230px;
+    opacity: 1;
 }
 
 .learnMoreButtonText {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 23.6299px;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 3.46807px 3.46807px rgba(0, 0, 0, 0.25), 0px 0px 3.46807px #8200FF;
 }
 
 .footer {
