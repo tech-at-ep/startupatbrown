@@ -8,10 +8,9 @@ const Header = (props) => {
       <div className="horizontalLine"></div>
       <div className="speakersHeader">
         <p className="info1" style={{fontSize: '70px', paddingTop: '90px'}}>{props.title}</p>
-        <p className="info2" style={{fontSize: '30px'}}>{props.caption}</p>
+        <p className="info2" style={{fontSize: '30px', inlineSize:'800px', margin: 'auto'}}>{props.caption}</p>
       </div>
     </div>
   )
 }
-
 export default Header
