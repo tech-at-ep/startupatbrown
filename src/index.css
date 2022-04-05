@@ -21,30 +21,63 @@ body {
 }
 
 .navbutton {
-    width: 15%;
+    width: 10%;
     height: 75px;
     background-color: transparent;
     text-align: center;
-    font-family: 'Karma';
+    font-family: 'Karma', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19.1674px;
-    line-height: 140px;
+    /* line-height: 140px; */
+    margin-top: 60px;
     text-decoration: none;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(184,157,234);
 }
 
-.navHomeButton {
-    /* margin-left: 700px; */
+.registerButtonText {
+    text-align: center;
+    font-family: 'Karma', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.1674px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+    margin-top: 17px;
+}
+
+.registerButton {
+    width: 13%;
+    height: 55px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 39px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border: 3px solid #FFFFFF;
+    border-radius: 36px;
+}
+
+.registerButton:hover {
+    cursor: pointer;
+    width: 14%;
+    font-size: 22px;
+}
+
+.registerButtonText:hover {
+    font-size: 22px;
 }
 
 .navbutton:hover {
     cursor: pointer;
     font-size: 22px;
     box-shadow: 5px;
+    color: white;
 }
 
 .landingHeader {
@@ -79,16 +112,16 @@ body {
     /* identical to box height, or 22px */
     text-align: center;
     margin: auto;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 3.68px rgba(202, 5, 255, 0.91), 0px 4px 4px rgba(0, 0, 0, 0.26);
+    color: #2F0EB1;
 }
 
 .headerButton {
-    width: 211.84px;
-    height: 70.61px;
+    width: 248px;
+    height: 70px;
     text-align: center;
     margin: auto;
     background-image: linear-gradient(to right, #FF34A2 16.26%, #FFE1A7 89.31%);
+    background: linear-gradient(143.28deg, #FFC451 15.39%, #FF53B0 95.79%);
     border-radius: 226.966px;
     display: inline-flex;
     align-items: center;
@@ -99,8 +132,8 @@ body {
 
 .headerButton:hover {
     cursor: pointer;
-    width: 211.84px;
-    height: 70.61px;
+    width: 255px;
+    height: 70px;
     /* background: linear-gradient(128.11deg, #FF34A2 16.26%, #FFE1A7 89.31%); */
     background-position: right center;
     /* change the direction of the change here */
@@ -182,8 +215,7 @@ body {
     margin: auto;
     margin-top: 70px;
 
-    background: linear-gradient(143.28deg, #FF9FC5, #BF1FD9 95.79%);
-    background-blend-mode: screen;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 76.1024px;
     display: flex;
     flex-direction: row;
@@ -235,9 +267,10 @@ body {
 
 .apply {
     height: 500px;
-    background: rgba(146, 26, 208, 0.8);
-    backdrop-filter: blur(27.5037px);
+    background: rgba(255, 255, 255, 0.1);
+    /* background: transparent; */
     margin-bottom: 100px;
+    vertical-align: center;
 }
 
 .applyHeader {
@@ -260,26 +293,83 @@ body {
     align-items: center;
     margin: auto;
     margin-top: 30px;
-    width: 824.72px;
+    padding-top: 80px;
+    width: 100%;
     height: 249.33px;
-    border: 5.3097px dashed #FFE15A;
 }
 
-.qrCode {
-    width: 212.35px;
-    height: 194.79px;
-    margin-left: 20px;
+.headerButtonText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.7071px;
+    line-height: 97%;
+    /* identical to box height, or 22px */
+    text-align: center;
+    margin: auto;
+    color: #2F0EB1;
+}
+
+.applyButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.applyButton {
+    width: 194px;
+    height: 65px;
+    text-align: center;
     margin-right: 20px;
+    background-image: linear-gradient(to right, #FF34A2 16.26%, #FFE1A7 89.31%);
+    background: linear-gradient(143.28deg, #FFC451 15.39%, #FF53B0 95.79%);
+    border-radius: 226.966px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 22.7071px;
 }
 
+.applyButton:hover {
+    cursor: pointer;
+    /* background: linear-gradient(128.11deg, #FF34A2 16.26%, #FFE1A7 89.31%); */
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.applyButtonText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 97%;
+    /* identical to box height, or 22px */
+    text-align: center;
+    margin: auto;
+    color: #2F0EB1;
+}
+
+.applyImage {
+    width: 365px;
+    height: 339px;
+    margin: auto;
+    border-radius: 6px;
+    margin-right: 50px;
+}
+.qrText {
+    margin: auto;
+    margin-left: 10px;
+}
 .qrText1 {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 89.8565px;
     /* identical to box height, or 88px */
-    background: linear-gradient(#FF9FC5, #FF4EE6);
-    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), linear-gradient(91.49deg, #FF9FC5 0.28%, #FF4EE6 62.74%);
+    background: #FF9A7D;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -293,19 +383,19 @@ body {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20.4641px;
+    font-size: 24px;
     line-height: 27px;
     color: #FFFFFF;
-    text-shadow: 0px 0px 4.49283px #8200FF;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .qrText3 {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18.9333px;
-    background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), linear-gradient(91.49deg, #FF9FC5 0.28%, #FF4EE6 62.74%);
+    font-size: 20px;
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -418,7 +508,7 @@ body {
 
 .speakersHeader {
     width: 100%;
-    height: 400px;
+    height: 350px;
     background: linear-gradient(272.79deg, rgba(136,65,227, 1) 6.39%, rgba(36, 0, 101, 0.2) 99.69%);
     background-blend-mode: screen;
     text-align: center;
@@ -491,19 +581,206 @@ body {
     margin-left: 15%;
   }
 
-.parallax {
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 1103px;
+    margin: auto;
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+.qa {
+    margin-bottom: 50px;
+}
+
+.question {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #E5D4FF;
+}
+
+.registerNow {
+    width: 100%;
+    height: 506px;
+    background: linear-gradient(88deg, rgba(77,60,108, 0.1) 6.39%, rgb(115,63,220) 99.69%);
+    background-blend-mode: screen;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 100px;
+}
+.qrCode {
+    width: 320.15px;
+    height: 324px;
+    margin: auto;
+    margin-left: 75px;
+}
+
+.registerText {
+    margin: auto;
+    margin-right: 75px;
+}
+
+.registerText1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 74px;
+    line-height: 97%;
+    color: #FF9A7D;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.registerText2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    /* or 29px */
+
+
+    color: #E5D5FF;
+}
+
+.daySchedule {
+    margin-bottom: 110px;
+}
+
+.dayNumber {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    line-height: 150%;
+    margin-bottom: 60px;
+}
+
+.tableHeader {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    width: 958px;
+    margin: auto;
+
+
+/* light purple text */
+
+color: #E5D4FF;
+}
+
+.timeHeader {
+    right: 5%;
+}
+
+.eventHeader {
+    margin: auto;
+}
+
+.locationHeader {
+    left: 5%;
+}
+
+.scheduleTable {
+    width: 75%;
+    background: linear-gradient(140.98deg, rgba(126, 77, 210, 0.55) 22.86%, #5500EA 100%);
+    border-radius: 67px;
+    margin: auto;
+}
+
+.tableRow {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 97%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* or 29px */
+
+
+    color: #FFFFFF;
+
+}
+
+.time {
+    left: 5%;
+    width: 30%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.event {
+    width: 55%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.location {
+    width: 15%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.time2 {
+    left: 5%;
+    width: 25%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.event2 {
+    width: 45%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.location2 {
+    width: 30%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+}
+
+.smallEventText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #E5D4FF;
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.weatherCaution {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #E5D4FF;
+    opacity: 0.7;
+    text-align: right;
+    margin-right: 17%;
+    margin-top: 20px;
 }

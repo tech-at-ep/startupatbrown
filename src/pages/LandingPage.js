@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Navbar from '../components/Navbar';
 import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
-import qrCode from "../images/qrcode.png";
+import applyImage from "../images/image23.png";
 import backgroundImg from "../images/landingBackground.png";
 import '../index.css';
 
@@ -17,7 +17,7 @@ const LandingPage = () => {
               <p className='header2style'>The Brown<br />Entrepreneurship<br />Conference</p>
               <p className='header3style'>Date: April 9-10, 2022 | Location: Main Green</p>
               <div className="headerButton">
-                <p className='headerButtonText'>Apply Now</p>
+                <p className='headerButtonText'>REGISTER NOW</p>
               </div>
             </div>
             <div className='landingInfo'>
@@ -41,13 +41,20 @@ const LandingPage = () => {
               </div>
             </div>
             <div className='apply'>
-              <p className='applyHeader'>Application Deadline is 4/1!</p>
               <div className='qrBox'>
-                <img className='qrCode' src={qrCode}></img>
+                <img className='applyImage' src={applyImage}></img>
                 <div className='qrText'>
                   <p className='qrText1'>APPLY NOW</p>
-                  <p className='qrText2'>To enter our Pitch Competition and get a chance to win $1,000+ prizes!</p>
-                  <p className='qrText3'>*Must have at least one female-identifying founder</p>
+                  <p className='qrText2'>for our Pitch Competition and get a chance to win $1,000+ prizes!</p>
+                  <div className="applyButtons">
+                    <div className="applyButton">
+                      <p className='applyButtonText'>Apply Now</p>
+                    </div>
+                    <div className="applyButton" style={{background: 'transparent', border: '3px solid #FFFFFF', borderRadius: '36px'}}>
+                      <p className='applyButtonText' style={{color: 'white'}}>Learn More</p>
+                    </div>
+                  </div>
+                  <p className='qrText3'>*Must have at least one female-identifying founder<br />*Application due 4/1/22</p>
                 </div>
               </div>
             </div>
