@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
 import applyImage from "../images/image23.png";
-import '../index.css';
+// import '../index.css';
 
 const sendRegister = (ev) => {
   ev.preventDefault();

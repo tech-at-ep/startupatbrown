@@ -75,7 +75,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
             <p className="time2">2:00 ~ 3:00</p>
-            <p className="event2">Raffle + Food Break<br /><p className="smallEventText">• Food truck arrives and parked near Sayles<br />• Raffles on Main Green or Metcalf Auditorium</p></p>
+            <p className="event2">Raffle + Food Break<br /><p className="smallEventText" style={{fontSize: '17px'}}>• Food truck arrives and parked near Sayles<br />• Raffles on Main Green or Metcalf Auditorium</p></p>
             <p className="location2">Sayles/Main Green<br />or<br />Metcalf Auditorium</p>
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>

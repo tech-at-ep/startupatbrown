@@ -51,14 +51,14 @@ const Speakers = () => {
     <div className="container parallax" style={{position: 'relative', background: 'url(images/speakersBackground.png) no-repeat center center'}}>
       <Navbar />
       <Header title='Speakers' caption='We’ll have a series of talks by trailblazing founders, entrepreneurs, and venture captialists' />
-      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '50px'}}>Keynote Speakers</p>
+      <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px'}}>Keynote Speakers</p>
       <div className="keynoteSpeakers">
         <div className="speakersRow">
           <SpeakerBox photo={Kroll} name="Charlie Kroll" company="Lithic, fmr. Ellevest"/>
           <SpeakerBox photo="http://www.artnet.com/WebServices/images/ll00354lldUo0GFg9MECfDrCWvaHBOcCMqD/ad-reinhardt-black-square-(+another,-screenprint-on-paper;-2-works).jpg" name="?" company="?"/>
         </div>
       </div>
-      <p className="info1" style={{marginLeft: '300px', textAlign: 'left', fontSize: '50px'}}>Featured Speakers</p>
+      <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px'}}>Featured Speakers</p>
       <div className="grid-container">
         {membersArray.map((member) => (
           <SpeakerBox style={{width: '200px', height: '200px'}} name={member.name} company={member.title} photo={member.headshot}/>
