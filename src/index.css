@@ -596,7 +596,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 46px;
+    font-size: 40px;
     color: white;
     margin-bottom: 10px;
 }
@@ -605,7 +605,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 36px;
     color: #E5D4FF;
 }
@@ -717,7 +717,7 @@ color: #E5D4FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 97%;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -958,13 +958,13 @@ color: #E5D4FF;
 }
 
 .cardContainerL {
-    margin-left: 25vh;
+    margin-left: 20px;
     height: 391px;
     margin-bottom: 75px;
 }
 
 .cardContainerR {
-    margin-left: 100px;
+    margin-right: 20px;
     height: 391px;
     margin-bottom: 75px;
 }
@@ -972,5 +972,9 @@ color: #E5D4FF;
 .cardColumns {
     display: flex;
     flex-direction: row;
+    margin: auto;
+}
+
+.cardColumn {
     margin: auto;
 }
