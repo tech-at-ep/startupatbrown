@@ -4,6 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100vh;
 }
 
 body {
@@ -12,12 +13,14 @@ body {
 
 .container {
     background-position-y: top;
+    width: 100vh;
 }
 
 .nav {
     display: flex;
     flex-direction: row-reverse;
     height: 140px;
+    width: 100vh;
 }
 
 .navbutton {
@@ -28,7 +31,7 @@ body {
     font-family: 'Karma', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 8px;
     /* line-height: 140px; */
     margin-top: 60px;
     text-decoration: none;
@@ -42,7 +45,7 @@ body {
     font-family: 'Karma', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 19.1674px;
+    font-size: 10px;
     text-decoration: none;
     transition: 0.5s;
     color: white;
@@ -51,16 +54,16 @@ body {
 
 .registerButton {
     width: 13%;
-    height: 55px;
+    height: 45px;
     background-color: transparent;
     text-align: center;
     margin-top: 39px;
-    margin-right: 20px;
     text-decoration: none;
     transition: 0.5s;
     background-size: 200% auto;
     border: 3px solid #FFFFFF;
     border-radius: 36px;
+    margin-right: 20px;
 }
 
 .registerButton:hover {
@@ -81,15 +84,15 @@ body {
 }
 
 .landingHeader {
-    height: 600px;
+    height: 500px;
+    width: 100vh;
     text-align: center;
 }
 
 .navLogo {
     position: absolute;
-    width: 45px;
-    margin-right: 14%;
-    height: 58.78px;
+    width: 30px;
+    height: 39px;
     left: 52px;
     top: 44px;
     transition: 0.5s;
@@ -126,19 +129,8 @@ body {
     display: inline-flex;
     align-items: center;
     text-align: center;
-    transition: 0.5s;
     background-size: 200% auto;
-}
-
-.headerButton:hover {
-    cursor: pointer;
-    width: 255px;
-    height: 70px;
-    /* background: linear-gradient(128.11deg, #FF34A2 16.26%, #FFE1A7 89.31%); */
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
+    margin-top: 30px;
 }
 
 .header1style {
@@ -150,19 +142,24 @@ body {
     text-align: center;
     color: #FF9A7D;
     text-shadow: 0px 0px 3.68232px #8200FF;
+    width: 100vh;
+    margin: auto;
 }
 
 .header2style {
     font-family: 'Inter', Sans-Serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 73.6464px;
+    font-size: 60px;
     margin: 0px;
     line-height: 97%;
     /* or 71px */
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 0px 3.68232px #8200FF;
+    width: 100vh;
+    margin: auto;
+    margin-top: 30px;
 
 }
 
@@ -170,17 +167,21 @@ body {
     font-family: 'Karma';
     font-style: normal;
     font-weight: 700;
-    font-size: 32.1366px;
+    font-size: 25.1366px;
     line-height: 120%;
     /* identical to box height, or 39px */
     text-align: center;
     color: #FF9A7D;
     text-shadow: 0px 0px 3.68232px #8200FF;
+    width: 100vh;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .landingInfo {
-    height: 700px;
+    height: 500px;
     text-align: center;
+    width: 100vh;
 }
 
 .info1 {
@@ -210,8 +211,8 @@ body {
 }
 
 .blob {
-    width: 100vh;
-    height: 266.78px;
+    width: 80vh;
+    height: 200px;
     margin: auto;
     margin-top: 70px;
 
@@ -231,15 +232,16 @@ body {
 
 .blobR {
     width: 40%;
+    inline-size: 250px;
 }
 
 .blobNumber {
     margin: auto;
-    padding-top: 60px;
+    padding-top: 40px;
     font-family: 'Karma';
     font-style: normal;
     font-weight: 700;
-    font-size: 95.715px;
+    font-size: 60px;
     /* identical to box height */
     text-shadow: 0px 0px 4.57767px #8200FF;
     color: rgb(248, 218, 94);
@@ -250,7 +252,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16.6461px;
+    font-size: 15px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -259,18 +261,21 @@ body {
 
 .vertical-row {
     margin-top: 40px;
-    height: 180px;
+    height: 130px;
     width: 2px;
     /* edit this if you want */
     background-color: white;
 }
 
 .apply {
-    height: 500px;
+    height: 250px;
+    width: 100vh;
     background: rgba(255, 255, 255, 0.1);
     /* background: transparent; */
-    margin-bottom: 100px;
     vertical-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .applyHeader {
@@ -292,10 +297,8 @@ body {
     flex-direction: row;
     align-items: center;
     margin: auto;
-    margin-top: 30px;
-    padding-top: 80px;
     width: 100%;
-    height: 249.33px;
+    height: 204px;
 }
 
 .headerButtonText {
@@ -316,8 +319,8 @@ body {
 }
 
 .applyButton {
-    width: 194px;
-    height: 65px;
+    width: 140px;
+    height: 45px;
     text-align: center;
     margin-right: 20px;
     background-image: linear-gradient(to right, #FF34A2 16.26%, #FFE1A7 89.31%);
@@ -328,7 +331,8 @@ body {
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    font-size: 22.7071px;
+    font-size: 17.7071px;
+    margin-top: 10px;
 }
 
 .applyButton:hover {
@@ -353,8 +357,8 @@ body {
 }
 
 .applyImage {
-    width: 365px;
-    height: 339px;
+    width: 219px;
+    height: 204px;
     margin: auto;
     border-radius: 6px;
     margin-right: 50px;
@@ -367,7 +371,7 @@ body {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 89.8565px;
+    font-size: 50px;
     /* identical to box height, or 88px */
     background: #FF9A7D;
     -webkit-background-clip: text;
@@ -383,18 +387,15 @@ body {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 27px;
+    font-size: 12px;
     color: #FFFFFF;
-    margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .qrText3 {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 12px;
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -464,9 +465,10 @@ body {
 }
 
 .footer {
+    width: 100vh;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 90px;
     margin: auto;
     background-color: #333333;
     color: white;
@@ -476,25 +478,27 @@ body {
 .footerText {
     text-align: left;
     margin: 25px;
+    font-size: 12px;
 }
 
 .footerLogoImage {
     position: absolute;
-    height: 60px;
-    transition: 0.5s;
+    height: 50px;
+    margin: auto;
 }
 
 .footerLogo {
     margin: 15px;
-    margin-left: 430px;
+    margin-left: 100px;
+    margin-right: 60px;
 }
 
 .footerTextBox {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 100%;
     margin: auto;
-    margin-left: 140px;
+    margin-left: 60px;
 }
 
 .horizontalLine {
