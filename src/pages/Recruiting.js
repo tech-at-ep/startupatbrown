@@ -111,20 +111,6 @@ const Recruiting = () => {
                 <p className="cardInfo">A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care.</p>
             </div>
         </div>
-        
-        {/* {name: "Alex Rothburg Evan Jackson", company: "Intus Care", headshot: AlexEvan, logo: IntusCare, info: "A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care."} */}
-
-        {/* <div className="cardContainer">
-            <img className="cardHeadshot" src={props.headshot} style={props.imgStyle}></img>
-            <div className="companyCard">
-                <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <p className="cardTitle" style={props.textStyle}>{props.name} • {props.company}</p>
-                </div>
-                <img className="cardImage" src={props.logo}></img>
-                <p className="cardInfo">{props.info}</p>
-            </div>
-        </div> */}
-        
         </div>
         <div className="cardColumn" style={{marginTop: '100px'}}>
         {membersArrayR.map((member) => (
