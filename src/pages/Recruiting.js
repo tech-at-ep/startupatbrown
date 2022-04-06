@@ -85,9 +85,9 @@ const Recruiting = () => {
       <div className="cardColumns">
         <div className="cardColumn">
         {membersArrayL.map((member) => (
-          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info}/>
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} classN="cardContainerL"/>
         ))}
-        <div className="cardContainer">
+        <div className="cardContainerL">
             <img className="cardHeadshot" src={Schaeffer}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -99,7 +99,7 @@ const Recruiting = () => {
                 <p className="cardInfo">Connecting cancer medications to those in need.</p>
             </div>
         </div>
-        <div className="cardContainer">
+        <div className="cardContainerL">
             <img className="cardHeadshot" src={AlexEvan}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -114,7 +114,7 @@ const Recruiting = () => {
         </div>
         <div className="cardColumn" style={{marginTop: '100px'}}>
         {membersArrayR.map((member) => (
-          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} imgStyle={RcolumnStyle} textStyle={RtextStyle}/>
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} imgStyle={RcolumnStyle} textStyle={RtextStyle} classN="cardContainerR"/>
         ))}
         </div>
       </div>

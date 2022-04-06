@@ -28,7 +28,7 @@ body {
     font-family: 'Karma', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 19.1674px;
+    font-size: 18px;
     /* line-height: 140px; */
     margin-top: 60px;
     text-decoration: none;
@@ -75,7 +75,7 @@ body {
 
 .navbutton:hover {
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
     box-shadow: 5px;
     color: white;
 }
@@ -619,6 +619,7 @@ body {
     flex-direction: row;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 .qrCode {
     width: 320.15px;
@@ -677,8 +678,8 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
-    width: 958px;
     margin: auto;
+    width: 75%;
 
 
 /* light purple text */
@@ -687,15 +688,18 @@ color: #E5D4FF;
 }
 
 .timeHeader {
-    right: 5%;
+    left: 5%;
+    width: 30%;
 }
 
 .eventHeader {
     margin: auto;
+    width: 55%;
 }
 
 .locationHeader {
     left: 5%;
+    width: 15%;
 }
 
 .scheduleTable {
@@ -953,7 +957,20 @@ color: #E5D4FF;
     margin-bottom: 75px;
 }
 
+.cardContainerL {
+    margin-left: 25vh;
+    height: 391px;
+    margin-bottom: 75px;
+}
+
+.cardContainerR {
+    margin-left: 100px;
+    height: 391px;
+    margin-bottom: 75px;
+}
+
 .cardColumns {
     display: flex;
     flex-direction: row;
+    margin: auto;
 }

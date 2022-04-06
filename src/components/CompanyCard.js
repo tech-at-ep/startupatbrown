@@ -1,6 +1,6 @@
 const CompanyCard = (props) => {
     return (
-        <div className="cardContainer">
+        <div className={props.classN}>
             <img className="cardHeadshot" src={props.headshot} style={props.imgStyle}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>

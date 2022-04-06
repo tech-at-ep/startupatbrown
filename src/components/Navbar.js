@@ -14,9 +14,9 @@ const Navbar = () => {
               <Link className="navbutton" to="/QA" style={{width: '6%'}}>Q&A</Link>
               <Link className="navbutton" to="/schedule"  style={{width: '9%'}}>Schedule</Link>
               <Link className="navbutton" to="/recruiting"  style={{width: '12%'}}>Recruiting Fair</Link>
-              <Link className="navbutton" to="/competition"  style={{width: '12%'}}>Pitch Competition</Link>
+              <Link className="navbutton" to="/competition"  style={{width: '14%'}}>Pitch Competition</Link>
               <Link className="navbutton" to="/speakers"  style={{width: '12%'}}>Speakers Page</Link>
-              <Link className="navbutton navHomeButton" to="/"  style={{width: '8%'}}>Home</Link>
+              <Link className="navbutton navHomeButton" to="/"  style={{width: '7%'}}>Home</Link>
         </div>
     )
   }

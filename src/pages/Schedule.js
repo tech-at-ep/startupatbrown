@@ -12,10 +12,12 @@ const Schedule = () => {
       <Header title="Brown Entrepreneurship Conference Schedule" caption='April 9  ~ April 10' height='400px'/>
       <div className="daySchedule">
         <p className="dayNumber">Day 1<br />April 9th</p>
-        <div className="tableHeader">
-          <p className="timeHeader">Time</p>
-          <p className="eventHeader">Event</p>
-          <p className="locationHeader">Location</p>
+        <div style={{width: '75%', margin: 'auto'}}>
+          <div className="tableHeader">
+            <p className="timeHeader">Time</p>
+            <p className="eventHeader">Event</p>
+            <p className="locationHeader">Location</p>
+          </div>
         </div>
         <div className="scheduleTable">
           <div className="tableRow" style={{paddingTop: "60px"}}>
@@ -48,10 +50,12 @@ const Schedule = () => {
 
       <div className="daySchedule">
         <p className="dayNumber">Day 2<br />April 10th</p>
-        <div className="tableHeader">
-          <p className="timeHeader">Time</p>
-          <p className="eventHeader">Event</p>
-          <p className="locationHeader">Location</p>
+        <div style={{width: '75%', margin: 'auto'}}>
+          <div className="tableHeader" style={{width: '90%', marginLeft: '10%'}}>
+            <p className="timeHeader" style={{width: '25%'}}>Time</p>
+            <p className="eventHeader" style={{width: '45%'}}>Event</p>
+            <p className="locationHeader" style={{width: '30%'}}>Location</p>
+          </div>
         </div>
         <div className="scheduleTable">
           <div className="tableRow" style={{paddingTop:'60px', width: '90%', marginLeft: '10%'}}>
