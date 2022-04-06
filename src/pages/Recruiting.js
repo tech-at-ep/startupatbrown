@@ -52,8 +52,6 @@ const membersArrayL = [
   {name: "Beren Rana Oz", company: "Cohart", headshot: Beren, logo: Cohart, info: "Social commerce platform connecting visual creators with their consumers in web3."},
   {name: "Cliff Weitzman", company: "Speechify", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
   {name: "Alex Pryor", company: "Guayaki", headshot: Pryor, logo: Guayaki, info: "Sharing yerba mate to regenerate ecosystems and create vibrant communities."},
-  {name: "Jack Schaeffer Eliza Sternlicht", company: "Medicircle", headshot: Schaeffer, logo: Medicircle, info: "Connecting cancer medications to those in need."},
-  {name: "Alex Rothburg Evan Jackson", company: "Intus Care", headshot: AlexEvan, logo: IntusCare, info: "A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care."},
 ]
 
 const membersArrayR = [
@@ -89,6 +87,44 @@ const Recruiting = () => {
         {membersArrayL.map((member) => (
           <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info}/>
         ))}
+        <div className="cardContainer">
+            <img className="cardHeadshot" src={Schaeffer}></img>
+            <div className="companyCard">
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <p className="cardTitle" style={{lineHeight:'25px'}}>Jack Schaeffer<br />Eliza Sternlicht</p><p className="cardTitle" style={{marginLeft: '7px', lineHeight:'50px'}}> • Medicircle</p>
+                    {/* <p className="cardTitle2" style={props.textStyle}></p> */}
+                </div>
+                {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
+                <img className="cardImage" src={Medicircle}></img>
+                <p className="cardInfo">Connecting cancer medications to those in need.</p>
+            </div>
+        </div>
+        <div className="cardContainer">
+            <img className="cardHeadshot" src={AlexEvan}></img>
+            <div className="companyCard">
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <p className="cardTitle" style={{lineHeight:'25px'}}>Alex Rothburg<br />Evan Jackson</p><p className="cardTitle" style={{marginLeft: '7px', lineHeight:'50px'}}> • Intus Care</p>
+                    {/* <p className="cardTitle2" style={props.textStyle}></p> */}
+                </div>
+                {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
+                <img className="cardImage" src={IntusCare}></img>
+                <p className="cardInfo">A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care.</p>
+            </div>
+        </div>
+        
+        {/* {name: "Alex Rothburg Evan Jackson", company: "Intus Care", headshot: AlexEvan, logo: IntusCare, info: "A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care."} */}
+
+        {/* <div className="cardContainer">
+            <img className="cardHeadshot" src={props.headshot} style={props.imgStyle}></img>
+            <div className="companyCard">
+                <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <p className="cardTitle" style={props.textStyle}>{props.name} • {props.company}</p>
+                </div>
+                <img className="cardImage" src={props.logo}></img>
+                <p className="cardInfo">{props.info}</p>
+            </div>
+        </div> */}
+        
         </div>
         <div className="cardColumn" style={{marginTop: '100px'}}>
         {membersArrayR.map((member) => (

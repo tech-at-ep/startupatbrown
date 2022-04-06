@@ -6,6 +6,11 @@ import Header from '../components/Header';
 import qrCode from "../images/image21.png";
 import applyImage from "../images/image23.png";
 
+const sendPitchSignup = (ev) => {
+  ev.preventDefault();
+  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScL-OnzyviG8UAXzMmraHFdPK9aOq3AtKNQL_9mZ3wlqc7shA/viewform';
+}
+
 const Competition = () => {
 
   return(
@@ -70,7 +75,7 @@ const Competition = () => {
         <div className='qrText' style={{marginBottom: '25px', marginRight: '30px'}}>
           <p className='qrText1' style={{fontSize: '81px', marginTop: '35px'}}>APPLY NOW</p>
           <p className='qrText2' style={{fontSize: '22px', marginBottom: '30px'}}>for our Pitch Competition and get a chance to<br /> win $1,000+ prizes!</p>
-          <div className="applyButton" style={{width: '176.64px', height: '63.76px'}}>
+          <div className="applyButton" style={{width: '176.64px', height: '63.76px'}} onClick={sendPitchSignup}>
             <p className='applyButtonText'>Apply Now</p>
           </div>
           <p className='weatherCaution' style={{marginRight: '0px', marginBottom: '0px', fontSize: '19px', opacity: '1'}}>*Application due 4/1/22</p>

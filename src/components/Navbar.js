@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const sendRegister = (ev) => {
   ev.preventDefault();
-  window.location.href='/';
+  window.location.href='https://www.eventbrite.com/e/2022-brown-entrepreneurship-conference-tickets-295260390777';
   }
   
 const Navbar = () => {

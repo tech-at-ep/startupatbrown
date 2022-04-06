@@ -5,6 +5,21 @@ import Footer from '../components/Footer';
 import applyImage from "../images/image23.png";
 import '../index.css';
 
+const sendRegister = (ev) => {
+  ev.preventDefault();
+  window.location.href='https://www.eventbrite.com/e/2022-brown-entrepreneurship-conference-tickets-295260390777';
+  }
+
+const sendPitchSignup = (ev) => {
+  ev.preventDefault();
+  window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScL-OnzyviG8UAXzMmraHFdPK9aOq3AtKNQL_9mZ3wlqc7shA/viewform';
+}
+
+const sendPitch = (ev) => {
+  ev.preventDefault();
+  window.location.href='/competition';
+  }
+
 const LandingPage = () => {
   return(
           <div className="container" style={{position: 'relative'}}>
@@ -13,7 +28,7 @@ const LandingPage = () => {
               <p className='header1style'>Startup@Brown x Women Empowerment</p>
               <p className='header2style'>The Brown<br />Entrepreneurship<br />Conference</p>
               <p className='header3style'>Date: April 9-10, 2022 | Location: Main Green</p>
-              <div className="headerButton">
+              <div className="headerButton" onClick={sendRegister}>
                 <p className='headerButtonText'>REGISTER NOW</p>
               </div>
             </div>
@@ -44,10 +59,10 @@ const LandingPage = () => {
                   <p className='qrText1'>APPLY NOW</p>
                   <p className='qrText2'>for our Pitch Competition and get a chance to win $1,000+ prizes!</p>
                   <div className="applyButtons">
-                    <div className="applyButton">
+                    <div className="applyButton" onClick={sendPitchSignup}>
                       <p className='applyButtonText'>Apply Now</p>
                     </div>
-                    <div className="applyButton" style={{background: 'transparent', border: '3px solid #FFFFFF', borderRadius: '36px'}}>
+                    <div className="applyButton" style={{background: 'transparent', border: '3px solid #FFFFFF', borderRadius: '36px'}} onClick={sendPitch}>
                       <p className='applyButtonText' style={{color: 'white'}}>Learn More</p>
                     </div>
                   </div>

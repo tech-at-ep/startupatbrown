@@ -5,6 +5,11 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import qrCode from '../images/qrCode3.png';
 
+const sendRegister = (ev) => {
+  ev.preventDefault();
+  window.location.href='https://www.eventbrite.com/e/2022-brown-entrepreneurship-conference-tickets-295260390777';
+  }
+
 const QA = () => {
 
   return(
@@ -37,7 +42,7 @@ const QA = () => {
         <div className="registerText">
           <p className="registerText1">Register Now!</p>
           <p className="registerText2">Meet amazing startups and find your <br />next internship or full-time job</p>
-          <div className="applyButton" style={{marginTop: '30px'}}>
+          <div className="applyButton" style={{marginTop: '30px'}} onClick={sendRegister}>
             <p className='applyButtonText'>Apply Now</p>
           </div>
         </div>
