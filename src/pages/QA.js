@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import qrCode from '../images/qrCode.png';
+import qrCode from '../images/qrCode3.png';
 
 const QA = () => {
 
