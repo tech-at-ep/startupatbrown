@@ -42,6 +42,12 @@ import Moos from '../images/Kathryn Moos OWYN.webp';
 import OWYN from '../images/OWYN.png';
 import Tatiana from '../images/Tatiana Mandis  1.png';
 import Cinemates from '../images/Cinemates.png';
+import Jerry from '../images/Jerry Talton.png';
+import Mary from '../images/Mary Lou Jepsen.png';
+import Patty from '../images/Patty Hostin (1).png';
+import Blackrock from '../images/BlackRock.png';
+import Carta from '../images/Carta.png';
+import Openwater from '../images/Openwater.png';
 
 
 const membersArrayL = [
@@ -52,6 +58,8 @@ const membersArrayL = [
   {name: "Beren Rana Oz", company: "Cohart", headshot: Beren, logo: Cohart, info: "Social commerce platform connecting visual creators with their consumers in web3."},
   {name: "Cliff Weitzman", company: "Speechify", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
   {name: "Alex Pryor", company: "Guayaki", headshot: Pryor, logo: Guayaki, info: "Sharing yerba mate to regenerate ecosystems and create vibrant communities."},
+  {name: "Patty Hostin", company: "BlackRock", headshot: Patty, logo: Blackrock, info: "Global investment manager. Technology provider. Helping more and more people experience financial well-being."},
+  {name: "Mary Lou Jepsen", company: "Openwater", headshot: Mary, logo: Openwater, info: "Devising a new generation of imaging technologies to change how we read and write our bodies and brains."},
 ]
 
 const membersArrayR = [
@@ -64,6 +72,7 @@ const membersArrayR = [
   {name: "Meera Kurup", company: "EmpowerU", headshot: Kurup, logo: EmpowerU, info: "Ed-Tech Platform that provides students with the resources and tools they need to obtain higher education."},
   {name: "Kathryn Moos", company: "OWYN", headshot: Moos, logo: OWYN, info: "Plant based health and nutrition company that is true to its name, Only What You Need."},
   {name: "Tatiana Mandis", company: "Cinemates", headshot: Tatiana, logo: Cinemates, info: ""},
+  {name: "Jerry Talton", company: "Carta", headshot: Jerry, logo: Carta, info: "Carta helps companies and investors manage their cap tables, valuations, investments, and equity plans."},
 ]
 
 const RcolumnStyle = {

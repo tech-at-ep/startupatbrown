@@ -23,6 +23,11 @@ import Kurup from '../images/Meera Kurup EmpowerU.jpeg';
 import Schaeffer from '../images/Jack Schaeffer Eliza Sternlicht.jpeg';
 import Kroll from '../images/download.jpeg';
 import Tatiana from '../images/Tatiana.png';
+import Jerry from '../images/Jerry Talton.png';
+import Mary from '../images/Mary Lou Jepsen.png';
+import Patty from '../images/Patty Hostin (1).png';
+import Jennifer from '../images/Jennifer Nazareno.png';
+import Banu from '../images/Banu Ozkazanc-pan.png';
 
 const Speakers = () => {
 
@@ -45,6 +50,9 @@ const Speakers = () => {
     {name: "Meera Kurup", title: "EmpowerU", headshot: Kurup},
     {name: "Jack Schaeffer Eliza Sternlicht", title: "Medi Circle", headshot: Schaeffer},
     {name: "Tatiana Mandis", title: "Cinemates", headshot: Tatiana},
+    {name: "Jerry Talton", title: "Carta", headshot: Jerry},
+    {name: "Patty Hostin", title: "BlackRock", headshot: Patty},
+    {name: "Mary Lou Jepsen", title: "Openwater", headshot: Mary},
     ]
 
   return(
@@ -54,11 +62,12 @@ const Speakers = () => {
       <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px'}}>Keynote Speakers</p>
       <div className="keynoteSpeakers">
         <div className="speakersRow">
-          <SpeakerBox photo={Kroll} name="Charlie Kroll" company="Lithic, fmr. Ellevest"/>
-          <SpeakerBox photo="http://www.artnet.com/WebServices/images/ll00354lldUo0GFg9MECfDrCWvaHBOcCMqD/ad-reinhardt-black-square-(+another,-screenprint-on-paper;-2-works).jpg" name="?" company="?"/>
+          <SpeakerBox style={{width:'355', height:'447'}} photo={Kroll} name="Charlie Kroll" company="Lithic, fmr. Ellevest"/>
+          <SpeakerBox style={{width:'355', height:'447'}} photo={Jennifer} name="Jennifer Nazareno" company="Barrett Hazeltine Professor of the Practice, Assistant Professor of Public Health & Entrepreneurship"/>
+          <SpeakerBox style={{width:'355', height:'447'}} photo={Banu} name="Banu Ozkazanc-pan" company="Professor of Practice, School of Engineering, & Director of the Venture Capital Inclusion Lab"/>
         </div>
       </div>
-      <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px'}}>Featured Speakers</p>
+      <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px', marginTop: '70px'}}>Featured Speakers</p>
       <div className="grid-container">
         {membersArray.map((member) => (
           <SpeakerBox style={{width: '200px', height: '200px'}} name={member.name} company={member.title} photo={member.headshot}/>
