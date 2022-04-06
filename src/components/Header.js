@@ -1,5 +1,3 @@
-import bImage from "../images/WEXSTARTUPbacground.png";
-
 const Header = (props) => {
   return (
     <div className="header">

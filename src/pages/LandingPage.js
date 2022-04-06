@@ -1,11 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import Header from '../components/Header'
 import Navbar from '../components/Navbar';
 import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
 import applyImage from "../images/image23.png";
-import backgroundImg from "../images/landingBackground.png";
 import '../index.css';
 
 const LandingPage = () => {

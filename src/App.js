@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from "./pages/LandingPage";
 import Speakers from "./pages/Speakers";

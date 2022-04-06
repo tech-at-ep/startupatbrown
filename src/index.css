@@ -513,7 +513,7 @@ body {
     background-blend-mode: screen;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 171px;
+    margin-bottom: 150px;
 }
 
 .speakerBox {
@@ -783,4 +783,177 @@ color: #E5D4FF;
     text-align: right;
     margin-right: 17%;
     margin-top: 20px;
+}
+
+.infoBoxHeader {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #E5D4FF;
+    text-shadow: 0px 0px 6.00914px #8200FF;
+    text-align: center;
+}
+
+.infoBox {
+    width: 338px;
+    height: 242px;
+    background: linear-gradient(298.66deg, #935FFF 4.09%, rgba(147, 95, 255, 0) 129.08%);
+    border-radius: 52px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 6.00914px #8200FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBoxes {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.infoDate {
+    margin: auto;
+    margin-right: 30px;
+}
+
+.infoTime {
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.infoLocation {
+    margin: auto;
+    margin-left: 30px;
+}
+
+.infoBoxText {
+    margin: auto;
+    text-align: center;
+}
+
+.pitchApply {
+    height: 442px;
+    background: linear-gradient(271.38deg, #5123A3 -6.63%, rgba(122, 74, 208, 0.81) -6.62%, rgba(166, 155, 204, 0.2) 99.84%);
+    background-blend-mode: screen;
+    display: flex;
+    flex-direction: row;
+}
+
+.pitchImage {
+    width: 474px;
+    height: 442px;
+}
+
+.pitchQrCode {
+    width: 929px;
+    height: 396.58px;
+    border: 3.64671px solid #FF9A7D;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    background: rgba(54,4,194, 0.3);
+}
+
+.qrCode2 {
+    width: 265.67px;
+    height: 266.21px;
+    margin: auto;
+    margin-left: 61.5px;
+    margin-right: 61.5px;
+    background-blend-mode: screen;
+}
+
+.companyCard {
+    width: 562px;
+    background: linear-gradient(288.13deg, rgba(214, 192, 255, 0.54) 8.79%, rgba(154, 102, 252, 0.21) 110.92%);
+    opacity: 1;
+    border-radius: 53px;
+    display: flex;
+    flex-direction: column;
+    bottom: 0; 
+}
+
+.cardTitle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 97%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 130px;
+}
+
+.cardTitle2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 97%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.cardImage {
+    width: 465.17px;
+    height: 162px;
+    border-radius: 23.5286px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+
+.cardInfo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 22px;
+    text-shadow: 0px 0px 6.00914px #8200FF;
+    inline-size: 469px;
+    margin-bottom: 22px;
+}
+
+.cardHeadshot {
+    width: 123.66px;
+    height: 123.66px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 0.494235px solid #3604C2;
+    border-radius: 103px;
+    margin-bottom: -65px;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.cardContainer {
+    margin-left: 200px;
+    height: 391px;
+    margin-bottom: 75px;
+}
+
+.cardColumns {
+    display: flex;
+    flex-direction: row;
 }

@@ -3,6 +3,80 @@ import Navbar from '../components/Navbar';
 import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import CompanyCard from "../components/CompanyCard";
+//left column:
+import Kroll from '../images/download.jpeg';
+import Lithic from '../images/LiticLCC.png';
+import Perez from '../images/Valentin Perez.jpeg';
+import Monthly from '../images/Monthly.webp';
+import Bachenberg from '../images/Maggie Bachenberg Pointz.jpeg';
+import Pointz from '../images/Pointz.png'; //download this
+import Kohler from '../images/Abbie Kohler ResusciTech.jpeg';
+import ResusciTech from '../images/RTech.png'// download this
+import Beren from '../images/Beren Rana Oz Cohart.jpeg';
+import Cohart from '../images/Cohart.jpeg'; //download this
+import Cliff from '../images/Cliff Weitzman.jpeg';
+import Speechify from '../images/Speechify2.png' //download this
+import Pryor from '../images/Guayaki.jpeg';
+import Guayaki from '../images/Guayaki.png'; //download this
+import Schaeffer from '../images/Jack Schaeffer Eliza Sternlicht.jpeg';
+import Medicircle from '../images/Medicircle.png';//download this
+import AlexEvan from '../images/Alex Rothburg Evan Jackson.png';//download this
+import IntusCare from '../images/IntusCare.png';//download this
+//right column:
+import Baumann from '../images/Will Baumann.jpeg';
+import Fourthwall from '../images/Fourthwall.png';
+import Margulius from '../images/Quizlet.jpeg';
+import Quizlet from '../images/Quizlet.png';
+import Qi from '../images/Christina Qi.jpeg';
+import Databento from '../images/Databento.png';
+import Kraft from '../images/Daniel Kraft.jpeg';
+import DHealth from '../images/Digital Health.png';
+import Xu from '../images/Julia L. Xu Multitasky.jpeg';
+import Multitasky from '../images/Multitasky.png';
+import Altman from '../images/Miriam Altman Powerschool.jpeg';
+import Powerschool from '../images/Powerschool.png';
+import Kurup from '../images/Meera Kurup EmpowerU.jpeg';
+import EmpowerU from '../images/EmpowerU.png';
+import Moos from '../images/Kathryn Moos OWYN.webp';
+import OWYN from '../images/OWYN.png';
+import Tatiana from '../images/Tatiana Mandis  1.png';
+import Cinemates from '../images/Cinemates.png';
+
+
+const membersArrayL = [
+  {name: "Charlie Kroll", company: "Lithic, fmr. Ellevest", headshot: Kroll, logo: Lithic, info: "Developer tools for modern card issuing"},
+  {name: "Valentin Perez", company: "Monthly", headshot: Perez, logo: Monthly, info: "Take hands-on, one-month classes with the world’s best instructors. Learn from your favorite creators."},
+  {name: "Maggie Bachenburg", company: "Pointz", headshot: Bachenberg, logo: Pointz, info: "Pointz is a mobile app that allows people to create safe, customized micro-mobility routes."},
+  {name: "Abbie Kohley", company: "ResusciTech", headshot: Kohler, logo: ResusciTech, info: "Giving people the confidence and capability to perform CPR."},
+  {name: "Beren Rana Oz", company: "Cohart", headshot: Beren, logo: Cohart, info: "Social commerce platform connecting visual creators with their consumers in web3."},
+  {name: "Cliff Weitzman", company: "Speechify", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
+  {name: "Alex Pryor", company: "Guayaki", headshot: Pryor, logo: Guayaki, info: "Sharing yerba mate to regenerate ecosystems and create vibrant communities."},
+  {name: "Jack Schaeffer Eliza Sternlicht", company: "Medicircle", headshot: Schaeffer, logo: Medicircle, info: "Connecting cancer medications to those in need."},
+  {name: "Alex Rothburg Evan Jackson", company: "Intus Care", headshot: AlexEvan, logo: IntusCare, info: "A healthcare analytics platform that synthesizes healthcare data to indentify risks, visualize trends, and optimize care."},
+]
+
+const membersArrayR = [
+  {name: "Will Baumann", company: "Fourthwall", headshot: Baumann, logo: Fourthwall, info: "Fourthwall empowers digital creators to turn their personal brands into businesses."},
+  {name: "Dave Margulius", company: "Quizlet", headshot: Margulius, logo: Quizlet, info: "Helping students (and their teachers) practice and master whatever they are learning."},
+  {name: "Christina Qi", company: "Databento", headshot: Qi, logo: Databento, info: "Pas-as-you-go for financial data"},
+  {name: "Daniel Kraft", company: "Digital Health", headshot: Kraft, logo: DHealth, info: ""},
+  {name: "Julia L. Xu", company: "Multitasky", headshot: Xu, logo: Multitasky, info: "Elevate your lifestyle with trendy, (FUN)ctional & aesthetic gadgets."},
+  {name: "Miriam Altman", company: "PowerSchool", headshot: Altman, logo: Powerschool, info: "PowerSchool is the leading provider of cloud-based software for K-12 education in North America."},
+  {name: "Meera Kurup", company: "EmpowerU", headshot: Kurup, logo: EmpowerU, info: "Ed-Tech Platform that provides students with the resources and tools they need to obtain higher education."},
+  {name: "Kathryn Moos", company: "OWYN", headshot: Moos, logo: OWYN, info: "Plant based health and nutrition company that is true to its name, Only What You Need."},
+  {name: "Tatiana Mandis", company: "Cinemates", headshot: Tatiana, logo: Cinemates, info: ""},
+]
+
+const RcolumnStyle = {
+  marginLeft: '465px',
+}
+
+const RtextStyle = {
+  textAlign: 'right',
+  marginRight: 'auto',
+  marginLeft: 'auto'
+}
 
 const Recruiting = () => {
 
@@ -10,7 +84,18 @@ const Recruiting = () => {
     <div className="container" style={{position: 'relative'}}>
       <Navbar />
       <Header title='Recruiting Fair' caption="We'll have companies sponsoring a Recruiting Fair!" />
-      
+      <div className="cardColumns">
+        <div className="cardColumn">
+        {membersArrayL.map((member) => (
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info}/>
+        ))}
+        </div>
+        <div className="cardColumn" style={{marginTop: '100px'}}>
+        {membersArrayR.map((member) => (
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} imgStyle={RcolumnStyle} textStyle={RtextStyle}/>
+        ))}
+        </div>
+      </div>
       <MoreInfo />
       <Footer />
     </div>

@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const sendToSpeaker = (ev) => {
     ev.preventDefault();
     window.location.href='/speakers';
