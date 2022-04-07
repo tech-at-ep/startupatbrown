@@ -211,6 +211,33 @@ body {
     text-shadow: 0px 0px 4.30357px #8200FF;
 }
 
+.Hinfo1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 120%;
+    inline-size: 700px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Hinfo2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #E5D5FF;
+    text-shadow: 0px 0px 4.30357px #8200FF;
+    inline-size: 600px;
+    margin: auto;
+}
+
 .blob {
     width: 80vh;
     height: 200px;
@@ -516,7 +543,7 @@ body {
     margin: auto;
     margin-top: 40px;
     height: 2px;
-    width: 580px;
+    width: 480px;
     /* edit this if you want */
     background-color: #FF9A7D;
 }
@@ -840,7 +867,7 @@ color: #E5D4FF;
 }
 
 .infoBox {
-    width: 225px;
+    width: 25vh;
     height: 161px;
     background: linear-gradient(298.66deg, #935FFF 4.09%, rgba(147, 95, 255, 0) 129.08%);
     border-radius: 52px;

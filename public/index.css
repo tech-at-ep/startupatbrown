@@ -210,6 +210,33 @@ body {
     text-shadow: 0px 0px 4.30357px #8200FF;
 }
 
+.Hinfo1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 120%;
+    inline-size: 1000px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Hinfo2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #E5D5FF;
+    text-shadow: 0px 0px 4.30357px #8200FF;
+    inline-size: 800px;
+    margin: auto;
+}
+
 .blob {
     width: 1037px;
     height: 266.78px;
