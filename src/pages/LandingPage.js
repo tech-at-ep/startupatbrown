@@ -25,9 +25,9 @@ const LandingPage = () => {
           <div className="container" style={{position: 'relative'}}>
             <Navbar />
             <div className='landingHeader'>
-              <p className='header1style'>Startup@Brown x Women Empowerment</p>
+              <p className='header1style'>Startup@Brown x Women's Empowerment</p>
               <p className='header2style'>The Brown<br />Entrepreneurship<br />Conference</p>
-              <p className='header3style'>Date: April 9-10, 2022 | Location: Main Green</p>
+              <p className='header3style'>Date: April 9-10, 2022 | Location: Sayles & Main Green</p>
               <div className="headerButton" onClick={sendRegister}>
                 <p className='headerButtonText'>REGISTER NOW</p>
               </div>
@@ -37,12 +37,12 @@ const LandingPage = () => {
               <p className='info2'>Come join us as Startup@Brown and Women Empowerment<br />from Brown Entrepreneurship Program hosts the BIGGEST<br />entrepreneurial event of the year</p>
               <div className='blob'>
                   <div className='blobL'>
-                  <p className='blobNumber'>16</p>
+                  <p className='blobNumber'>20+</p>
                   <p className='blobText'>Workshop Speakers</p>
                   </div>
                   <div className='vertical-row'></div>
                   <div className='blobM'>
-                  <p className='blobNumber'>2</p>
+                  <p className='blobNumber'>3</p>
                   <p className='blobText'>Keynote Speakers</p>
                   </div>
                   <div className='vertical-row'></div>

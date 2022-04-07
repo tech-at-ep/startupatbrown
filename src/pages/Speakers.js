@@ -28,6 +28,7 @@ import Mary from '../images/Mary Lou Jepsen.png';
 import Patty from '../images/Patty Hostin (1).png';
 import Jennifer from '../images/Jennifer Nazareno.png';
 import Banu from '../images/Banu Ozkazanc-pan.png';
+import Elvia from '../images/elviaPerez.png'
 
 const Speakers = () => {
 
@@ -51,8 +52,9 @@ const Speakers = () => {
     {name: "Jack Schaeffer Eliza Sternlicht", title: "Medi Circle", headshot: Schaeffer},
     {name: "Tatiana Mandis", title: "Cinemates", headshot: Tatiana},
     {name: "Jerry Talton", title: "Carta", headshot: Jerry},
-    {name: "Patty Hostin", title: "BlackRock", headshot: Patty},
+    {name: "Patty Sweeny", title: "BlackRock", headshot: Patty},
     {name: "Mary Lou Jepsen", title: "Openwater", headshot: Mary},
+    {name: "Elvia Perez", title: "Nelson Center for Entrepreneurship", headshot: Elvia},
     ]
 
   return(

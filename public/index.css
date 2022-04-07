@@ -494,7 +494,7 @@ body {
     height: 226.35px;
     background: rgb(97,61,209);
     border-radius: 26.6077px;
-    transition: 0.5s;
+    transition: 0.8s;
     background-size: 200% auto;
     margin: 20px;
     border: none;
@@ -503,8 +503,8 @@ body {
 
 .learnMoreButton:hover {
     cursor: pointer;
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
     opacity: 1;
 }
 

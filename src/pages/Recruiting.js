@@ -54,11 +54,11 @@ const membersArrayL = [
   {name: "Charlie Kroll", company: "Lithic, fmr. Ellevest", headshot: Kroll, logo: Lithic, info: "Developer tools for modern card issuing"},
   {name: "Valentin Perez", company: "Monthly", headshot: Perez, logo: Monthly, info: "Take hands-on, one-month classes with the world’s best instructors. Learn from your favorite creators."},
   {name: "Maggie Bachenburg", company: "Pointz", headshot: Bachenberg, logo: Pointz, info: "Pointz is a mobile app that allows people to create safe, customized micro-mobility routes."},
+  {name: "Patty Sweeny", company: "BlackRock", headshot: Patty, logo: Blackrock, info: "Global investment manager. Technology provider. Helping more and more people experience financial well-being."},
   {name: "Abbie Kohley", company: "ResusciTech", headshot: Kohler, logo: ResusciTech, info: "Giving people the confidence and capability to perform CPR."},
   {name: "Beren Rana Oz", company: "Cohart", headshot: Beren, logo: Cohart, info: "Social commerce platform connecting visual creators with their consumers in web3."},
   {name: "Cliff Weitzman", company: "Speechify", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
   {name: "Alex Pryor", company: "Guayaki", headshot: Pryor, logo: Guayaki, info: "Sharing yerba mate to regenerate ecosystems and create vibrant communities."},
-  {name: "Patty Hostin", company: "BlackRock", headshot: Patty, logo: Blackrock, info: "Global investment manager. Technology provider. Helping more and more people experience financial well-being."},
   {name: "Mary Lou Jepsen", company: "Openwater", headshot: Mary, logo: Openwater, info: "Devising a new generation of imaging technologies to change how we read and write our bodies and brains."},
 ]
 

@@ -27,7 +27,7 @@ const QA = () => {
         </div>
         <div className="qa">
           <p className="question">What will the event be like?</p>
-          <p className="answer">Startup@Brown is a day-long event where you’ll have the chance to interact closely with startup founders, many of them alumni.<br /><br />The event will focus on small-group conversations and workshops on topics from “What is Product Management” to “Exploring Accelerators.” Meet with engineers and designers, discuss the technical problems they’re trying to solve, and maybe they'll interest you enough for an internship or job :)</p>
+          <p className="answer">Startup@Brown is a 2-day in-person event where you’ll have the chance to interact closely with startup founders, many of them alumni.<br /><br />The event will focus on small-group conversations and workshops on topics from “What is Product Management” to “Exploring Accelerators.” Meet with engineers and designers, discuss the technical problems they’re trying to solve, and maybe they'll interest you enough for an internship or job :)</p>
         </div>
         <div className="qa">
           <p className="question">How do I apply?</p>
