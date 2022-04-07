@@ -44,8 +44,8 @@ const Competition = () => {
         </div>
       </div>
       <div className='landingInfo'>
-        <p className='info1' style={{size: '49px'}}>Come join the Pitch Competiton!</p>
-        <p className='info2' style={{inlineSize:'980px', margin: 'auto', size: '25px', fontWeight: '600'}}>Take your startups to the next level by pitching your company or idea to industry experts and experienced founders! Get feedback from our guests judges and come prepared to receive offers from our venture capital firm representative.</p>
+        <p className='info1' style={{size: '49px', inlineSize: 'auto'}}>Come join the Pitch Competiton!</p>
+        <p className='info2Pitch'>Take your startups to the next level by pitching your company or idea to industry experts and experienced founders! Get feedback from our guests judges and come prepared to receive offers from our venture capital firm representative.</p>
         <div className='blob'>
             <div className='blobL'>
             <p className='blobNumber'>3</p>
@@ -66,16 +66,16 @@ const Competition = () => {
       <div className='pitchApply'>
         <img className='pitchImage' src={applyImage}></img>
         <div className='qrText' style={{margin: 'auto'}}>
-          <p className='qrText2' style={{fontSize: '55px', fontWeight: '800', textAlign: 'center', lineHeight: '70px', inlineSize:'800px', paddingTop:'0px'}}>Enter our Pitch Competition and get a chance to win $1,000+ prizes!</p>
+          <p className='pitchqrText2'>Enter our Pitch Competition and get a chance to win $1,000+ prizes!</p>
           <p className='weatherCaution' style={{textAlign: 'center', marginRight: 'auto'}}>*Must have at least one female-identifying founder</p>
         </div>
       </div>
       <div className='pitchQrCode'>
         <img className='qrCode2' src={qrCode}></img>
         <div className='qrText' style={{marginBottom: '25px', marginRight: '30px'}}>
-          <p className='qrText1' style={{fontSize: '81px', marginTop: '35px'}}>APPLY NOW</p>
-          <p className='qrText2' style={{fontSize: '22px', marginBottom: '30px'}}>for our Pitch Competition and get a chance to<br /> win $1,000+ prizes!</p>
-          <div className="applyButton" style={{width: '176.64px', height: '63.76px'}} onClick={sendPitchSignup}>
+          <p className='pitchqrText1'>APPLY NOW</p>
+          <p className='pitchqrText22'>for our Pitch Competition and get a chance to win $1,000+ prizes!</p>
+          <div className="pitchapplyButton" onClick={sendPitchSignup}>
             <p className='applyButtonText'>Apply Now</p>
           </div>
           <p className='weatherCaution' style={{marginRight: '0px', marginBottom: '0px', fontSize: '19px', opacity: '1'}}>*Application due 4/1/22</p>

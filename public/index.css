@@ -189,6 +189,7 @@ body {
     font-weight: 800;
     font-size: 40.1419px;
     line-height: 120%;
+    inline-size: 1000px;
     /* or 48px */
 
     text-align: center;
@@ -210,7 +211,7 @@ body {
 }
 
 .blob {
-    width: 100vh;
+    width: 1037px;
     height: 266.78px;
     margin: auto;
     margin-top: 70px;
@@ -329,6 +330,32 @@ body {
     transition: 0.5s;
     background-size: 200% auto;
     font-size: 22.7071px;
+}
+
+.pitchapplyButton {
+    width: 194px;
+    height: 65px;
+    text-align: center;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, #FF34A2 16.26%, #FFE1A7 89.31%);
+    background: linear-gradient(143.28deg, #FFC451 15.39%, #FF53B0 95.79%);
+    border-radius: 226.966px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 22.7071px;
+    width: '176.64px';
+    height: '63.76px'
+}
+
+.pitchapplyButton:hover {
+    cursor: pointer;
+    /* background: linear-gradient(128.11deg, #FF34A2 16.26%, #FFE1A7 89.31%); */
+    background-position: right center;
+    /* change the direction of the change here */
+    font-size: 24px;
 }
 
 .applyButton:hover {
@@ -518,8 +545,16 @@ body {
 
 .speakerBox {
     text-align: center;
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+.KspeakerBox {
+    text-align: center;
+    width: 355px;
+    height: 447px;
     margin: auto;
     margin-bottom: 180px;
 }
@@ -777,6 +812,17 @@ color: #E5D4FF;
     margin-bottom: 0px;
 }
 
+.smallEventTextB {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: #E5D4FF;
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
 .weatherCaution {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -847,6 +893,21 @@ color: #E5D4FF;
     text-align: center;
 }
 
+.info2Pitch {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.0887px;
+    line-height: 30px;
+    text-align: center;
+    color: #E5D5FF;
+    text-shadow: 0px 0px 4.30357px #8200FF;
+    inline-size: 980px;
+    margin: auto;
+    size: 25px;
+    font-weight: 600;
+}
+
 .pitchApply {
     height: 442px;
     background: linear-gradient(271.38deg, #5123A3 -6.63%, rgba(122, 74, 208, 0.81) -6.62%, rgba(166, 155, 204, 0.2) 99.84%);
@@ -858,6 +919,18 @@ color: #E5D4FF;
 .pitchImage {
     width: 474px;
     height: 442px;
+}
+
+.pitchqrText2 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 70px;
+    inline-size: 800px;
+    padding-top: 0px;
 }
 
 .pitchQrCode {
@@ -880,6 +953,34 @@ color: #E5D4FF;
     margin-left: 61.5px;
     margin-right: 61.5px;
     background-blend-mode: screen;
+}
+
+.pitchqrText1 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    /* identical to box height, or 88px */
+    background: #FF9A7D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-blend-mode: overlay, screen;
+    /* text-shadow: 0px 0px 14.7038px rgba(0, 0, 0, 0.4); */
+    margin: auto;
+    margin-top: 5px;
+    font-size: 81px;
+    margin-top: 35px;
+}
+
+.pitchqrText22 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-bottom: 30px;
 }
 
 .companyCard {
@@ -914,6 +1015,30 @@ color: #E5D4FF;
     text-align: left;
     margin-top: 28px;
     margin-left: 5px;
+}
+
+.cardTitleLL{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 130px;
+}
+
+.cardTitleLR{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 7px;
 }
 
 .cardImage {
@@ -951,6 +1076,28 @@ color: #E5D4FF;
     object-fit: cover;
 }
 
+.cardHeadshotL {
+    width: 123.66px;
+    height: 123.66px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 0.494235px solid #3604C2;
+    border-radius: 103px;
+    margin-bottom: -65px;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.cardHeadshotR {
+    width: 123.66px;
+    height: 123.66px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 0.494235px solid #3604C2;
+    border-radius: 103px;
+    margin-bottom: -65px;
+    object-fit: cover;
+    margin-left: 465px;
+}
+
 .cardContainer {
     margin-left: 200px;
     height: 391px;
@@ -977,4 +1124,9 @@ color: #E5D4FF;
 
 .cardColumn {
     margin: auto;
+}
+
+.cardColumnR {
+    margin: auto;
+    margin-top: 100px;
 }

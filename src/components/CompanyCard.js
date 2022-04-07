@@ -1,7 +1,7 @@
 const CompanyCard = (props) => {
     return (
         <div className={props.classN}>
-            <img className="cardHeadshot" src={props.headshot} style={props.imgStyle}></img>
+            <img className={props.headshotClass} src={props.headshot}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>
                     <p className="cardTitle" style={props.textStyle}>{props.name} • {props.company}</p>

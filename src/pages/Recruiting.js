@@ -75,10 +75,6 @@ const membersArrayR = [
   {name: "Jerry Talton", company: "Carta", headshot: Jerry, logo: Carta, info: "Carta helps companies and investors manage their cap tables, valuations, investments, and equity plans."},
 ]
 
-const RcolumnStyle = {
-  marginLeft: '465px',
-}
-
 const RtextStyle = {
   textAlign: 'right',
   marginRight: 'auto',
@@ -94,13 +90,13 @@ const Recruiting = () => {
       <div className="cardColumns">
         <div className="cardColumn">
         {membersArrayL.map((member) => (
-          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} classN="cardContainerL"/>
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} classN="cardContainerL" headshotClass="cardHeadshotL"/>
         ))}
         <div className="cardContainerL">
             <img className="cardHeadshot" src={Schaeffer}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <p className="cardTitle" style={{lineHeight:'25px'}}>Jack Schaeffer<br />Eliza Sternlicht</p><p className="cardTitle" style={{marginLeft: '7px', lineHeight:'50px'}}> • Medicircle</p>
+                    <p className="cardTitleLL">Jack Schaeffer<br />Eliza Sternlicht</p><p className="cardTitleLR"> • Medicircle</p>
                     {/* <p className="cardTitle2" style={props.textStyle}></p> */}
                 </div>
                 {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
@@ -112,7 +108,7 @@ const Recruiting = () => {
             <img className="cardHeadshot" src={AlexEvan}></img>
             <div className="companyCard">
                 <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <p className="cardTitle" style={{lineHeight:'25px'}}>Alex Rothburg<br />Evan Jackson</p><p className="cardTitle" style={{marginLeft: '7px', lineHeight:'50px'}}> • Intus Care</p>
+                    <p className="cardTitleLL">Alex Rothburg<br />Evan Jackson</p><p className="cardTitleLR"> • Intus Care</p>
                     {/* <p className="cardTitle2" style={props.textStyle}></p> */}
                 </div>
                 {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
@@ -121,9 +117,9 @@ const Recruiting = () => {
             </div>
         </div>
         </div>
-        <div className="cardColumn" style={{marginTop: '100px'}}>
+        <div className="cardColumnR">
         {membersArrayR.map((member) => (
-          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} imgStyle={RcolumnStyle} textStyle={RtextStyle} classN="cardContainerR"/>
+          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} textStyle={RtextStyle} classN="cardContainerR"  headshotClass="cardHeadshotR"/>
         ))}
         </div>
       </div>

@@ -33,7 +33,7 @@ const LandingPage = () => {
               </div>
             </div>
             <div className='landingInfo'>
-              <p className='info1'>Connect and Work<br />with Innovative Startups</p>
+              <p className='info1' style={{inlineSize:'auto'}}>Connect and Work<br />with Innovative Startups</p>
               <p className='info2'>Come join us as Startup@Brown and Women Empowerment<br />from Brown Entrepreneurship Program hosts the BIGGEST<br />entrepreneurial event of the year</p>
               <div className='blob'>
                   <div className='blobL'>

@@ -188,8 +188,9 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 40.1419px;
+    font-size: 35px;
     line-height: 120%;
+    width: 100vh;
     /* or 48px */
 
     text-align: center;
@@ -335,6 +336,22 @@ body {
     margin-top: 10px;
 }
 
+.pitchapplyButton {
+    width: 184px;
+    height: 53px;
+    text-align: center;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, #FF34A2 16.26%, #FFE1A7 89.31%);
+    background: linear-gradient(143.28deg, #FFC451 15.39%, #FF53B0 95.79%);
+    border-radius: 226.966px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 19.7071px;
+}
+
 .applyButton:hover {
     cursor: pointer;
     /* background: linear-gradient(128.11deg, #FF34A2 16.26%, #FFE1A7 89.31%); */
@@ -408,6 +425,7 @@ body {
     padding-top: 50px;
     height: 800px;
     text-align: center;
+    width: 100vh;
 }
 
 .learnMoreText {
@@ -437,8 +455,8 @@ body {
 }
 
 .learnMoreButton {
-    width: 226.35px;
-    height: 226.35px;
+    width: 200px;
+    height: 200px;
     background: rgb(97,61,209);
     border-radius: 26.6077px;
     transition: 0.5s;
@@ -446,13 +464,6 @@ body {
     margin: 20px;
     border: none;
     opacity: 0.8;
-}
-
-.learnMoreButton:hover {
-    cursor: pointer;
-    width: 230px;
-    height: 230px;
-    opacity: 1;
 }
 
 .learnMoreButtonText {
@@ -522,8 +533,16 @@ body {
 
 .speakerBox {
     text-align: center;
-    width: 350px;
-    height: 350px;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+.KspeakerBox {
+    text-align: center;
+    width: 220px;
+    height: 220px;
     margin: auto;
     margin-bottom: 180px;
 }
@@ -542,7 +561,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 97%;
     color: white;
 }
@@ -590,6 +609,7 @@ body {
     flex-direction: column;
     width: 1103px;
     margin: auto;
+    width: 100vh;
 }
 
 .qa {
@@ -600,23 +620,27 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin-bottom: 10px;
+    width: 80vh;
+    margin: auto;
 }
 
 .answer {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 17px;
     line-height: 36px;
     color: #E5D4FF;
+    width: 80vh;
+    margin: auto;
 }
 
 .registerNow {
-    width: 100%;
-    height: 506px;
+    width: 100vh;
+    height: 400px;
     background: linear-gradient(88deg, rgba(77,60,108, 0.1) 6.39%, rgb(115,63,220) 99.69%);
     background-blend-mode: screen;
     display: flex;
@@ -626,22 +650,22 @@ body {
     margin-bottom: 200px;
 }
 .qrCode {
-    width: 320.15px;
-    height: 324px;
+    width: 270px;
+    height: 270px;
     margin: auto;
     margin-left: 75px;
 }
 
 .registerText {
     margin: auto;
-    margin-right: 75px;
+    margin-right: 0px;
 }
 
 .registerText1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 74px;
+    font-size: 54px;
     line-height: 97%;
     color: #FF9A7D;
     margin-top: 5px;
@@ -652,7 +676,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     /* or 29px */
 
 
@@ -681,7 +705,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     margin: auto;
     width: 75%;
 
@@ -721,8 +745,8 @@ color: #E5D4FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 25px;
-    line-height: 97%;
+    font-size: 20px;
+    line-height: 120%;
     padding-bottom: 30px;
     padding-top: 30px;
     /* or 29px */
@@ -774,7 +798,18 @@ color: #E5D4FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 14px;
+    color: #E5D4FF;
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.smallEventTextB {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
     color: #E5D4FF;
     opacity: 0.7;
     margin-top: 15px;
@@ -805,15 +840,15 @@ color: #E5D4FF;
 }
 
 .infoBox {
-    width: 338px;
-    height: 242px;
+    width: 225px;
+    height: 161px;
     background: linear-gradient(298.66deg, #935FFF 4.09%, rgba(147, 95, 255, 0) 129.08%);
     border-radius: 52px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
@@ -827,7 +862,8 @@ color: #E5D4FF;
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    width: 100vh;
 }
 
 .infoDate {
@@ -851,22 +887,47 @@ color: #E5D4FF;
     text-align: center;
 }
 
+.info2Pitch {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 90vh;
+    color: #E5D5FF;
+    margin: auto;
+    text-shadow: 0px 0px 4.30357px #8200FF;
+}
+
 .pitchApply {
-    height: 442px;
+    height: 221px;
+    width: 100vh;
     background: linear-gradient(271.38deg, #5123A3 -6.63%, rgba(122, 74, 208, 0.81) -6.62%, rgba(166, 155, 204, 0.2) 99.84%);
     background-blend-mode: screen;
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
 
 .pitchImage {
-    width: 474px;
-    height: 442px;
+    width: 237px;
+    height: 221px;
+}
+
+.pitchqrText2 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+    inline-size: 400px;
+    color: #FFFFFF;
 }
 
 .pitchQrCode {
-    width: 929px;
-    height: 396.58px;
+    width: 90vh;
+    height: 300.58px;
     border: 3.64671px solid #FF9A7D;
     box-sizing: border-box;
     display: flex;
@@ -878,16 +939,40 @@ color: #E5D4FF;
 }
 
 .qrCode2 {
-    width: 265.67px;
-    height: 266.21px;
+    width: 200.67px;
+    height: 200.21px;
     margin: auto;
-    margin-left: 61.5px;
-    margin-right: 61.5px;
+    margin-left: 50.5px;
+    margin-right: 50.5px;
     background-blend-mode: screen;
 }
 
+.pitchqrText1 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    /* identical to box height, or 88px */
+    background: #FF9A7D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-blend-mode: overlay, screen;
+    /* text-shadow: 0px 0px 14.7038px rgba(0, 0, 0, 0.4); */
+    margin: auto;
+    margin-top: 45px;
+}
+
+.pitchqrText22 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
 .companyCard {
-    width: 562px;
+    width: 600px;
     background: linear-gradient(288.13deg, rgba(214, 192, 255, 0.54) 8.79%, rgba(154, 102, 252, 0.21) 110.92%);
     opacity: 1;
     border-radius: 53px;
@@ -900,29 +985,43 @@ color: #E5D4FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 97%;
+    color: #FFFFFF;
+    text-align: left;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+
+.cardTitleLL{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 25px;
     color: #FFFFFF;
     text-align: left;
     margin-top: 28px;
     margin-left: 130px;
 }
 
-.cardTitle2 {
+.cardTitleLR{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 22px;
-    line-height: 97%;
+    line-height: 50px;
     color: #FFFFFF;
     text-align: left;
     margin-top: 28px;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 .cardImage {
-    width: 465.17px;
-    height: 162px;
+    width: 414px;
+    height: 145px;
     border-radius: 23.5286px;
     margin: auto;
     margin-top: 6px;
@@ -934,23 +1033,45 @@ color: #E5D4FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: #FFFFFF;
     margin: auto;
     margin-top: 22px;
     text-shadow: 0px 0px 6.00914px #8200FF;
-    inline-size: 469px;
+    inline-size: 450px;
     margin-bottom: 22px;
 }
 
 .cardHeadshot {
-    width: 123.66px;
-    height: 123.66px;
+    width: 62.66px;
+    height: 62.66px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     border: 0.494235px solid #3604C2;
     border-radius: 103px;
     margin-bottom: -65px;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.cardHeadshotL {
+    width: 100.66px;
+    height: 100.66px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 0.494235px solid #3604C2;
+    border-radius: 103px;
+    margin-bottom: -40px;
+    margin-left: -15px;
+    object-fit: cover;
+}
+
+.cardHeadshotR {
+    width: 100.66px;
+    height: 100.66px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 0.494235px solid #3604C2;
+    border-radius: 103px;
+    margin-bottom: -40px;
     margin-left: -15px;
     object-fit: cover;
 }
@@ -962,23 +1083,27 @@ color: #E5D4FF;
 }
 
 .cardContainerL {
-    margin-left: 20px;
+    margin: auto;
     height: 391px;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
 }
 
 .cardContainerR {
-    margin-right: 20px;
+    margin: auto;
     height: 391px;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
 }
 
 .cardColumns {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
 }
 
 .cardColumn {
+    margin: auto;
+}
+
+.cardColumnR {
     margin: auto;
 }

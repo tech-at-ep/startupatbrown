@@ -62,15 +62,31 @@ const Speakers = () => {
       <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px'}}>Keynote Speakers</p>
       <div className="keynoteSpeakers">
         <div className="speakersRow">
-          <SpeakerBox style={{width:'355', height:'447'}} photo={Kroll} name="Charlie Kroll" company="Lithic, fmr. Ellevest"/>
-          <SpeakerBox style={{width:'355', height:'447'}} photo={Jennifer} name="Jennifer Nazareno" company="Barrett Hazeltine Professor of the Practice, Assistant Professor of Public Health & Entrepreneurship"/>
-          <SpeakerBox style={{width:'355', height:'447'}} photo={Banu} name="Banu Ozkazanc-pan" company="Professor of Practice, School of Engineering, & Director of the Venture Capital Inclusion Lab"/>
+          <div className="KspeakerBox">
+              <img className="speakerImage" src={Kroll}></img>
+
+              <p className="speakerName">Charlie Kroll</p>
+              <p className="speakerCompany">Lithic, fmr. Ellevest</p>
+          </div>
+          <div className="KspeakerBox">
+              <img className="speakerImage" src={Jennifer}></img>
+
+              <p className="speakerName">Jennifer Nazareno</p>
+              <p className="speakerCompany">Barrett Hazeltine Professor of the Practice, Assistant Professor of Public Health & Entrepreneurship</p>
+          </div>
+          <div className="KspeakerBox"
+          >
+              <img className="speakerImage" src={Banu}></img>
+
+              <p className="speakerName">Banu Ozkazanc-pan</p>
+              <p className="speakerCompany">Professor of Practice, School of Engineering, & Director of the Venture Capital Inclusion Lab</p>
+          </div>
         </div>
       </div>
       <p className="info1" style={{margin: 'auto', textAlign: 'center', fontSize: '50px', marginBottom: '70px', marginTop: '70px'}}>Featured Speakers</p>
       <div className="grid-container">
         {membersArray.map((member) => (
-          <SpeakerBox style={{width: '200px', height: '200px'}} name={member.name} company={member.title} photo={member.headshot}/>
+          <SpeakerBox name={member.name} company={member.title} photo={member.headshot}/>
         ))}
       </div>
       <MoreInfo />
