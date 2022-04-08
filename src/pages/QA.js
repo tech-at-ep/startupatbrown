@@ -41,6 +41,9 @@ const QA = () => {
           <p className="question">How to contact us?</p>
           <p className="answer">Reach out at alex_guo@brown.edu for questions.</p>
         </div>
+        <div className="qa">
+        <p className="question">And learn more about us <a href="" style={{color: 'white'}}>Here!</a></p>
+        </div>
       </div>
       <div className="registerNow">
         <div className="registerText">

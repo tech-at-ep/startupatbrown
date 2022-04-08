@@ -101,6 +101,7 @@ body {
     height: 69.78px;
     left: 48px;
     top: 40px;
+    cursor: pointer;
 }
 
 .headerButtonText {
