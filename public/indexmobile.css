@@ -568,8 +568,8 @@ body {
 
 .KspeakerBox {
     text-align: center;
-    width: 220px;
-    height: 220px;
+    width: 190px;
+    height: 190px;
     margin: auto;
     margin-bottom: 180px;
 }
@@ -597,7 +597,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 97%;
     color: white;
 }
