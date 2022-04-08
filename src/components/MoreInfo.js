@@ -53,7 +53,7 @@ const MoreInfo = () => {
                       <p className='learnMoreButtonText'>Register Now!</p>
                     </button>
                     <button className='learnMoreButton' onClick={sendToQA}>
-                      <p className='learnMoreButtonText'>Q&A</p>
+                      <p className='learnMoreButtonText'>FAQ</p>
                     </button>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ const Competition = () => {
   return(
     <div className="container" style={{position: 'relative'}}>
       <Navbar />
-      <Header title='Pitch Competition' caption='Enter with your Pitch for a chance of $1,250!' />
+      <Header title='Pitch Competition' caption='Pitch your company for a chance to win up to $1,250!' />
       <div className="infoBoxes">
         <div className="infoDate">
           <p className="infoBoxHeader">Date</p>
@@ -30,7 +30,7 @@ const Competition = () => {
           <p className="infoBoxHeader">Time</p>
           <div className="infoBox">
             <p className="infoBoxText">
-              4:15 - 6:30 PM
+              4:15 - 6:00 PM
             </p>
           </div>
         </div>
@@ -66,15 +66,14 @@ const Competition = () => {
       <div className='pitchApply'>
         <img className='pitchImage' src={applyImage}></img>
         <div className='qrText' style={{margin: 'auto'}}>
-          <p className='pitchqrText2'>Enter our Pitch Competition and get a chance to win $1,000+ prizes!</p>
-          <p className='weatherCaution' style={{textAlign: 'center', marginRight: 'auto'}}>*Must have at least one female-identifying founder</p>
+          <p className='pitchqrText2'>Participate as an audience member and vote for one team who will win an additional $250!</p>
         </div>
       </div>
       <div className='pitchQrCode'>
         <img className='qrCode2' src={qrCode}></img>
         <div className='qrText' style={{marginBottom: '25px', marginRight: '30px'}}>
           <p className='pitchqrText1'>APPLY NOW</p>
-          <p className='pitchqrText22'>for our Pitch Competition and get a chance to win $1,000+ prizes!</p>
+          <p className='pitchqrText22'>for our Pitch Competition and get a chance to win $1,250+ prizes!</p>
           <div className="pitchapplyButton" onClick={sendPitchSignup}>
             <p className='applyButtonText'>Apply Now</p>
           </div>

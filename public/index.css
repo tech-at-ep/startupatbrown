@@ -1020,6 +1020,10 @@ color: #E5D4FF;
     bottom: 0; 
 }
 
+.companyCard:hover {
+    cursor: pointer;
+}
+
 .cardTitle {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1114,6 +1118,10 @@ color: #E5D4FF;
     object-fit: cover;
 }
 
+.cardHeadshotL:hover {
+    cursor: pointer;
+}
+
 .cardHeadshotR {
     width: 123.66px;
     height: 123.66px;
@@ -1123,6 +1131,14 @@ color: #E5D4FF;
     margin-bottom: -65px;
     object-fit: cover;
     margin-left: 465px;
+}
+
+.cardHeadshotR:hover {
+    cursor: pointer;
+}
+
+.cardHeadshot:hover {
+    cursor: pointer;
 }
 
 .cardContainer {

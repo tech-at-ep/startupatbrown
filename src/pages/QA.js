@@ -15,7 +15,7 @@ const QA = () => {
   return(
     <div className="container" style={{position: 'relative'}}>
       <Navbar />
-      <Header title='Q&A' caption='Look at our Frequently Asked Questions!' /> 
+      <Header title='FAQ' caption='Look at our Frequently Asked Questions!' /> 
       <div className="faq">
         <div className="qa">
           <p className="question">Who can attend Startup@Brown?</p>
