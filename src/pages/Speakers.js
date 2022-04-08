@@ -38,12 +38,12 @@ const Speakers = () => {
     {name: "Dave Margulius", title: "Co-Founder and Board Member of Quizlet", headshot: Margulius},
     {name: "Maggie Bachenberg", title: "CEO and Co-Founder of Pointz", headshot: Pointz},
     {name: "Christina Qi", title: "CEO of Databento", headshot: Qi},
-    {name: "Abbie Kohler", title: "CEO of Databento", headshot: Kohler},
+    {name: "Abbie Kohler", title: "CEO of ResusciTech", headshot: Kohler},
     {name: "Daniel Kraft", title: "Founder of Digital Health", headshot: Kraft},
     {name: "Beren Rana Oz", title: "Corporate Strategist at Cohart", headshot: Cohart},
     {name: "Julia L. Xu", title: "Founder and CEO of Multitasky", headshot: Xu},
     {name: "Cliff Weitzman", title: "CEO of Speechify", headshot: Weitzman},
-    {name: "Miriam Altman", title: "Co-Founder and CEO of Kinvolved", headshot: Altman},
+    // {name: "Miriam Altman", title: "Co-Founder and CEO of Kinvolved", headshot: Altman},
     {name: "Alex Pryor", title: " Co-Founder and Chief Cebador of Guayaki", headshot: Pryor},
     {name: "Kathryn Moos", title: "Founder and Managing Director of OWYN", headshot: Moos},
     {name: "Alex Rothberg", title: "Co-Founder & CTO of Intus Care", headshot: Rothburg},
@@ -80,7 +80,7 @@ const Speakers = () => {
           >
               <img className="speakerImage" src={Banu}></img>
 
-              <p className="speakerName">Banu Ozkazanc-pan</p>
+              <p className="speakerName">Banu Ozkazanc-Pan</p>
               <p className="speakerCompany">Professor of Practice, School of Engineering, & Director of the Venture Capital Inclusion Lab</p>
           </div>
         </div>

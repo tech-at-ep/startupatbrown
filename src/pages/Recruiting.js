@@ -52,28 +52,28 @@ import Openwater from '../images/Openwater.png';
 
 const membersArrayL = [
   // {name: "Charlie Kroll", company: "Lithic, fmr. Ellevest", headshot: Kroll, logo: Lithic, info: "Developer tools for modern card issuing"},
-  {name: "Valentin Perez", company: "Monthly", link: "https://www.google.com/", headshot: Perez, logo: Monthly, info: "Take hands-on, one-month classes with the world’s best instructors. Learn from your favorite creators."},
-  {name: "Maggie Bachenburg", company: "Pointz", headshot: Bachenberg, logo: Pointz, info: "Pointz is a mobile app that allows people to create safe, customized micro-mobility routes."},
+  {name: "Valentin Perez", company: "Monthly", link: "https://monthly.com/", headshot: Perez, logo: Monthly, info: "Take hands-on, one-month classes with the world’s best instructors. Learn from your favorite creators."},
+  {name: "Maggie Bachenburg", company: "Pointz", link: "https://www.bikepointz.com/", headshot: Bachenberg, logo: Pointz, info: "Pointz is a mobile app that allows people to create safe, customized micro-mobility routes."},
   // {name: "Patty Sweeny", company: "BlackRock", headshot: Patty, logo: Blackrock, info: "Global investment manager. Technology provider. Helping more and more people experience financial well-being."},
   // {name: "Abbie Kohley", company: "ResusciTech", headshot: Kohler, logo: ResusciTech, info: "Giving people the confidence and capability to perform CPR."},
   // {name: "Beren Rana Oz", company: "Cohart", headshot: Beren, logo: Cohart, info: "Social commerce platform connecting visual creators with their consumers in web3."},
-  {name: "Cliff Weitzman", company: "Speechify", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
+  {name: "Cliff Weitzman", company: "Speechify", link: "https://speechify.com/", headshot: Cliff, logo: Speechify, info: "Get your reading done faster, easier, and on the go. Listen to any book, document, or website with Speechify."},
   // {name: "Alex Pryor", company: "Guayaki", headshot: Pryor, logo: Guayaki, info: "Sharing yerba mate to regenerate ecosystems and create vibrant communities."},
   // {name: "Mary Lou Jepsen", company: "Openwater", headshot: Mary, logo: Openwater, info: "Devising a new generation of imaging technologies to change how we read and write our bodies and brains."},
-  {name: "Jerry Talton", company: "Carta", headshot: Jerry, logo: Carta, info: "Carta helps companies and investors manage their cap tables, valuations, investments, and equity plans."},
+  {name: "Jerry Talton", company: "Carta", link: "https://carta.com/", headshot: Jerry, logo: Carta, info: "Carta helps companies and investors manage their cap tables, valuations, investments, and equity plans."},
 
 ]
 
 const membersArrayR = [
   // {name: "Will Baumann", company: "Fourthwall", headshot: Baumann, logo: Fourthwall, info: "Fourthwall empowers digital creators to turn their personal brands into businesses."},
   // {name: "Dave Margulius", company: "Quizlet", headshot: Margulius, logo: Quizlet, info: "Helping students (and their teachers) practice and master whatever they are learning."},
-  {name: "Christina Qi", company: "Databento", headshot: Qi, logo: Databento, info: "Pas-as-you-go for financial data"},
+  {name: "Christina Qi", company: "Databento", link: "https://databento.com/", headshot: Qi, logo: Databento, info: "Pas-as-you-go for financial data"},
   // {name: "Daniel Kraft", company: "Digital Health", headshot: Kraft, logo: DHealth, info: ""},
-  {name: "Julia L. Xu", company: "Multitasky", headshot: Xu, logo: Multitasky, info: "Elevate your lifestyle with trendy, (FUN)ctional & aesthetic gadgets."},
+  {name: "Julia L. Xu", company: "Multitasky", link: "https://multitasky.com/", headshot: Xu, logo: Multitasky, info: "Elevate your lifestyle with trendy, (FUN)ctional & aesthetic gadgets."},
   // {name: "Miriam Altman", company: "PowerSchool", headshot: Altman, logo: Powerschool, info: "PowerSchool is the leading provider of cloud-based software for K-12 education in North America."},
   // {name: "Meera Kurup", company: "EmpowerU", headshot: Kurup, logo: EmpowerU, info: "Ed-Tech Platform that provides students with the resources and tools they need to obtain higher education."},
-  {name: "Kathryn Moos", company: "OWYN", headshot: Moos, logo: OWYN, info: "Plant based health and nutrition company that is true to its name, Only What You Need."},
-  {name: "Tatiana Mandis", company: "Cinemates", headshot: Tatiana, logo: Cinemates, info: ""},
+  {name: "Kathryn Moos", company: "OWYN", link: "https://liveowyn.com/", headshot: Moos, logo: OWYN, info: "Plant based health and nutrition company that is true to its name, Only What You Need."},
+  {name: "Tatiana Mandis", company: "Cinemates", link: "https://liveowyn.com/", headshot: Tatiana, logo: Cinemates, info: ""},
 ]
 
 const RtextStyle = {
@@ -93,18 +93,20 @@ const Recruiting = () => {
         {membersArrayL.map((member) => (
           <CompanyCard link={member.link} name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} classN="cardContainerL" headshotClass="cardHeadshotL"/>
         ))}
-        <div className="cardContainerL">
-            <img className="cardHeadshot" src={Schaeffer}></img>
-            <div className="companyCard">
-                <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <p className="cardTitleLL">Jack Schaeffer<br />Eliza Sternlicht</p><p className="cardTitleLR"> • Medicircle</p>
-                    {/* <p className="cardTitle2" style={props.textStyle}></p> */}
-                </div>
-                {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
-                <img className="cardImage" src={Medicircle}></img>
-                <p className="cardInfo">Connecting cancer medications to those in need.</p>
-            </div>
-        </div>
+        <a target="_blank" href="https://medicircle.org/" style={{textDecoration: 'none'}}>
+          <div className="cardContainerL">
+              <img className="cardHeadshot" src={Schaeffer}></img>
+              <div className="companyCard">
+                  <div style={{display: 'flex', flexDirection: 'row'}}>
+                      <p className="cardTitleLL">Jack Schaeffer<br />Eliza Sternlicht</p><p className="cardTitleLR"> • Medicircle</p>
+                      {/* <p className="cardTitle2" style={props.textStyle}></p> */}
+                  </div>
+                  {/* <div style={{inlineSize: '200px'}}>{props.name}</div> */}
+                  <img className="cardImage" src={Medicircle}></img>
+                  <p className="cardInfo">Connecting cancer medications to those in need.</p>
+              </div>
+          </div>
+        </a>
         {/* <div className="cardContainerL">
             <img className="cardHeadshot" src={AlexEvan}></img>
             <div className="companyCard">
@@ -118,7 +120,7 @@ const Recruiting = () => {
         </div>
         <div className="cardColumnR">
         {membersArrayR.map((member) => (
-          <CompanyCard name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} textStyle={RtextStyle} classN="cardContainerR"  headshotClass="cardHeadshotR"/>
+          <CompanyCard link={member.link} name={member.name} company={member.company} headshot={member.headshot} logo={member.logo} info={member.info} textStyle={RtextStyle} classN="cardContainerR"  headshotClass="cardHeadshotR"/>
         ))}
         </div>
       </div>

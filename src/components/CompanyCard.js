@@ -1,5 +1,18 @@
+import React from 'react';
+import { useHistory } from "react-router-dom";
+
 const CompanyCard = (props) => {
+
+    const history = useHistory();
+
+    const routeChange = () =>{ 
+      let path = `https://exerror.com/react-button-onclick-redirect-page/`; 
+      history.push(path);
+    }
+  
+
     return (
+        <a target="_blank" href={props.link} style={{textDecoration: 'none'}}>
         <div className={props.classN}>
             <img className={props.headshotClass} src={props.headshot}></img>
             <div className="companyCard">
@@ -12,6 +25,7 @@ const CompanyCard = (props) => {
                 <p className="cardInfo">{props.info}</p>
             </div>
         </div>
+        </a>
     )
   }
 

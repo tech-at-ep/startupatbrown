@@ -31,11 +31,15 @@ const QA = () => {
         </div>
         <div className="qa">
           <p className="question">How do I apply?</p>
-          <p className="answer">Register for Startup@Brown 2022 here!</p>
+          <p className="answer">Register for Startup@Brown 2022 <a className="answer" href="https://www.eventbrite.com/e/2022-brown-entrepreneurship-conference-tickets-295260390777">Here</a>!</p>
         </div>
         <div className="qa">
           <p className="question">When will I find out if I’m accepted?</p>
           <p className="answer">We would love if everyone could attend, but in past years we've received more interest than available. Please apply early to reserve your spot!</p>
+        </div>
+        <div className="qa">
+          <p className="question">How to contact us?</p>
+          <p className="answer">Reach out at alex_guo@brown.edu for questions.</p>
         </div>
       </div>
       <div className="registerNow">

@@ -22,7 +22,7 @@ const Schedule = () => {
         <div className="scheduleTable">
           <div className="tableRow" style={{paddingTop: "60px"}}>
             <p className="time">11:30</p>
-            <p className="event">Check-in table<br /><p className="smallEventText">• Speaker 1</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Speaker 2</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Speaker 3</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Speaker 4</p></p>
+            <p className="event">Check-in table<br /><p className="smallEventText">• Donuts will be provided:)</p></p>
             <p className="location">Sayles</p>
           </div>
           <div className="tableRow">
@@ -32,7 +32,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow">
             <p className="time">1:15 - 2:00</p>
-            <p className="event">Speaker Workshops 1 (4 speakers) </p>
+            <p className="event">Speaker Workshops 1 (4 speakers)<br /><p className="smallEventText">• Christina Qi - Conversations You Can't Have on Campus: Harsh Lessons from the Startup World</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Julia L. Xu - What's Your Next Big Thing? Exploring different career paths (corporate/freelance/entrepreneurship)</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Mary Lou Jepsen - Moderated Q&A</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Patricia Hostin - Keys to Career Success: Just One Woman’s Perspective</p></p>
             <p className="location">Sayles<br />Classrooms</p>
           </div>
           <div className="tableRow">
@@ -42,7 +42,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow">
             <p className="time">3:15 - 4:00</p>
-            <p className="event">Speaker Workshops 2 (4 speakers)</p>
+            <p className="event">Speaker Workshops 2 (4 speakers)<br /><p className="smallEventText">• Alex Pryor - Serving the Yerba Mate Plant</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Abbie Kohler - Early Commercialization: From Development to Beachhead</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Alex Rothberg - Creating a Culture that Scales</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Dave Margulius - The Founder's Creative Journey</p></p>
             <p className="location">Sayles<br />Classrooms</p>
           </div>
           <div className="tableRow" style={{paddingBottom: '60px'}}>
@@ -75,7 +75,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
             <p className="time2">1:15 - 2:00</p>
-            <p className="event2">Speaker Workshops 3 (4 speakers)</p>
+            <p className="event2">Speaker Workshops 3 (4 speakers)<br /><p className="smallEventText">• Cliff Weitzman - How I built 36 products as a student at Brown, which lead to 18 million users and 120 full-time teammates</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Tatiana Mandis - The Power of Storytelling - How to Pitch Your Company</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Beren Rana Oz - The Secret Sauce for Entrepreneurial Success</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Jerry Talton - Moderated Q&A</p></p>
             <p className="location2">Page-Robinson<br />Classrooms</p>
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
@@ -85,7 +85,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
             <p className="time2">3:15 - 4:00</p>
-            <p className="event2">3:15-4:00 Speaker Workshops 4 (5 speakers)</p>
+            <p className="event2">3:15-4:00 Speaker Workshops 4 (5 speakers)<br /><p className="smallEventText">• Valentin Perez - Starting Companies in College and Right After College</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Maggie Bachenberg - Navigating Entrepreneurship at Brown and Getting Funded Before Graduation</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Elvia Perez - EmpowerU's Entrepreneurship Journey at Brown: How to Take Advantage of Brown's Resources & Classes</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Kathyrn Moos - From Founder to Investor, Impact Driven Work</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Jack Schaeffer - I Have An Idea But Don't Know Where to Start: The Playbook of an Early-Stage Entrepreneur</p></p>
             <p className="location2">Page-Robinson<br />Classrooms</p>
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%', paddingBottom: '60px'}}>
