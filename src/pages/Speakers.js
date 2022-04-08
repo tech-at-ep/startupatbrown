@@ -33,28 +33,28 @@ import Elvia from '../images/elviaPerez.png'
 const Speakers = () => {
 
   const membersArray = [
-    {name: "Will Baumann", title: "Fourthwall", headshot: Baumann},
-    {name: "Valentin Perez", title: "Monthly", headshot: Perez},
-    {name: "Dave Margulius", title: "Quizlet", headshot: Margulius},
-    {name: "Maggie Bachenberg", title: "Pointz", headshot: Pointz},
-    {name: "Christina Qi", title: "Databento", headshot: Qi},
-    {name: "Abbie Kohler", title: "ResusciTech", headshot: Kohler},
-    {name: "Daniel Kraft", title: "Digital Health", headshot: Kraft},
-    {name: "Beren Rana Oz", title: "Cohart", headshot: Cohart},
-    {name: "Julia L. Xu", title: "Multitasky", headshot: Xu},
-    {name: "Cliff Weitzman", title: "Speechify", headshot: Weitzman},
-    {name: "Miriam Altman", title: "Powerschool", headshot: Altman},
-    {name: "Alex Pryor", title: "Guayaki", headshot: Pryor},
-    {name: "Kathryn Moos", title: "OWYN", headshot: Moos},
-    {name: "Alex Rothburg", title: "Intus Care", headshot: Rothburg},
-    {name: "Evan Jackson", title: "Intus Care", headshot: Jackson},
-    {name: "Meera Kurup", title: "EmpowerU", headshot: Kurup},
-    {name: "Jack Schaeffer Eliza Sternlicht", title: "Medi Circle", headshot: Schaeffer},
-    {name: "Tatiana Mandis", title: "Cinemates", headshot: Tatiana},
-    {name: "Jerry Talton", title: "Carta", headshot: Jerry},
-    {name: "Patty Sweeny", title: "BlackRock", headshot: Patty},
-    {name: "Mary Lou Jepsen", title: "Openwater", headshot: Mary},
-    {name: "Elvia Perez", title: "Nelson Center for Entrepreneurship", headshot: Elvia},
+    {name: "Will Baumann", title: "Co-founder of Fourthwall", headshot: Baumann},
+    {name: "Valentin Perez", title: "Co-Founder of Monthly", headshot: Perez},
+    {name: "Dave Margulius", title: "Co-Founder and Board Member of Quizlet", headshot: Margulius},
+    {name: "Maggie Bachenberg", title: "CEO and Co-Founder of Pointz", headshot: Pointz},
+    {name: "Christina Qi", title: "CEO of Databento", headshot: Qi},
+    {name: "Abbie Kohler", title: "CEO of Databento", headshot: Kohler},
+    {name: "Daniel Kraft", title: "Founder of Digital Health", headshot: Kraft},
+    {name: "Beren Rana Oz", title: "Corporate Strategist at Cohart", headshot: Cohart},
+    {name: "Julia L. Xu", title: "Founder and CEO of Multitasky", headshot: Xu},
+    {name: "Cliff Weitzman", title: "CEO of Speechify", headshot: Weitzman},
+    {name: "Miriam Altman", title: "Co-Founder and CEO of Kinvolved", headshot: Altman},
+    {name: "Alex Pryor", title: " Co-Founder and Chief Cebador of Guayaki", headshot: Pryor},
+    {name: "Kathryn Moos", title: "Founder and Managing Director of OWYN", headshot: Moos},
+    {name: "Alex Rothberg", title: "Co-Founder & CTO of Intus Care", headshot: Rothburg},
+    {name: "Evan Jackson", title: "Co-Founder & COO of Intus Care", headshot: Jackson},
+    {name: "Meera Kurup", title: "Co-founder & CTO of EmpowerU", headshot: Kurup},
+    {name: "Jack Schaeffer Eliza Sternlicht", title: "Co-Founder of MediCircle", headshot: Schaeffer},
+    {name: "Tatiana Mandis", title: "Founder and CEO of Cinemates", headshot: Tatiana},
+    {name: "Jerry Talton", title: "CTO at Carta", headshot: Jerry},
+    {name: "Patty Sweeny", title: "Managing Director, Securities Finance", headshot: Patty},
+    {name: "Mary Lou Jepsen", title: "CEO and Founder of OpenWater", headshot: Mary},
+    {name: "Elvia Perez", title: "CEO and Co-Founder of Pointz", headshot: Elvia},
     ]
 
   return(
@@ -68,7 +68,7 @@ const Speakers = () => {
               <img className="speakerImage" src={Kroll}></img>
 
               <p className="speakerName">Charlie Kroll</p>
-              <p className="speakerCompany">Lithic, fmr. Ellevest</p>
+              <p className="speakerCompany">Chief Revenue Officer at Lithic</p>
           </div>
           <div className="KspeakerBox">
               <img className="speakerImage" src={Jennifer}></img>
