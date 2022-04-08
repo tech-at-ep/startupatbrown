@@ -66,7 +66,7 @@ const LandingPage = () => {
                       <p className='applyButtonText' style={{color: 'white'}}>Learn More</p>
                     </div>
                   </div>
-                  <p className='qrText3'>*Must have at least one female-identifying founder<br />*Application due 4/1/22</p>
+                  <p className='qrText3'>*Application due 4/1/22</p>
                 </div>
               </div>
             </div>

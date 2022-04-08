@@ -52,7 +52,7 @@ const Speakers = () => {
     {name: "Jack Schaeffer Eliza Sternlicht", title: "Co-Founder of MediCircle", headshot: Schaeffer},
     {name: "Tatiana Mandis", title: "Founder and CEO of Cinemates", headshot: Tatiana},
     {name: "Jerry Talton", title: "CTO at Carta", headshot: Jerry},
-    {name: "Patty Sweeny", title: "Managing Director, Securities Finance", headshot: Patty},
+    {name: "Patricia Hoston", title: "Managing Director, BlackRock", headshot: Patty},
     {name: "Mary Lou Jepsen", title: "CEO and Founder of OpenWater", headshot: Mary},
     {name: "Elvia Perez", title: "CEO and Co-Founder of Pointz", headshot: Elvia},
     ]
