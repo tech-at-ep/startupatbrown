@@ -80,7 +80,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
             <p className="time2">2:00 - 3:00</p>
-            <p className="event2">Raffle Break + Food Truck<br /><p className="smallEventText">• Food truck arrives and parked near Sayles<br />• Raffles on Main Green or Metcalf Auditorium</p></p>
+            <p className="event2">Raffle Break + Food Truck<br /><p className="smallEventText">• Food truck arrives and parked near Sayles<br />• Raffles on Main Green</p></p>
             <p className="location2">Main Green</p>
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
