@@ -644,6 +644,11 @@ body {
     margin-left: 15%;
   }
 
+.grid-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .faq {
     display: flex;
     flex-direction: column;
