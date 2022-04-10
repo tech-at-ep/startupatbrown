@@ -71,7 +71,7 @@ const Speakers = () => {
               <img className="speakerImage" src={Kroll}></img>
 
               <p className="speakerName">Charlie Kroll</p>
-              <p className="speakerCompany">Chief Revenue Officer at Lithic</p>
+              <p className="speakerCompany"> 2x co-founder (Andera and Ellevest)<br />Chief Revenue Officer of Lithic</p>
           </div>
           <div className="KspeakerBox">
               <img className="speakerImage" src={Jennifer}></img>
