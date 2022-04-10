@@ -4,12 +4,31 @@ import MoreInfo from '../components/MoreInfo';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
+const sendItinerary = (ev) => {
+  ev.preventDefault();
+  window.location.href='https://docs.google.com/document/d/1pi82BnAXeLagaWCu0KNzQOrx0AaUQfEKHyxwBUP2egg/edit';
+  }
+
 const Schedule = () => {
 
   return(
     <div className="container" style={{position: 'relative'}}>
       <Navbar />
-      <Header title="Brown Entrepreneurship Conference Schedule" caption='April 9 & April 10' height='400px'/>
+      <div className="header">
+      <p className='header1style' style={{fontSize: '20px'}}>Startup@Brown x Women Empowerment</p>
+      <p className='header2style' style={{fontSize: '50px', opacity: '0.5'}}>The Brown Entrepreneurship Conference</p>
+      <div className="horizontalLine"></div>
+      <div className="speakersHeader" style={{height: '500px'}}>
+        <p className="Hinfo1">Brown Entrepreneurship Conference Schedule</p>
+        <p className="Hinfo2">April 9 & April 10</p>
+        <div className="headerButton" onClick={sendItinerary} style={{marginTop: '3%'}}>
+        <p className='headerButtonText'>See Itinerary Here</p>
+      </div>
+      </div>
+    </div>
+      <div style={{display: 'flex', flexDirection: 'row', marginTop: '-50px', marginBottom: '50px'}}>
+      
+      </div>
       <div className="daySchedule">
         <p className="dayNumber">Day 1<br />April 9th</p>
         <div style={{width: '75%', margin: 'auto'}}>
@@ -85,7 +104,7 @@ const Schedule = () => {
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%'}}>
             <p className="time2">3:15 - 4:00</p>
-            <p className="event2">3:15-4:00 Speaker Workshops 4 (5 speakers)<br /><p className="smallEventText">• Valentin Perez - Starting Companies in College and Right After College</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Maggie Bachenberg - Navigating Entrepreneurship at Brown and Getting Funded Before Graduation</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Elvia Perez - EmpowerU's Entrepreneurship Journey at Brown: How to Take Advantage of Brown's Resources & Classes</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Kathyrn Moos - From Founder to Investor, Impact Driven Work</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Jack Schaeffer - I Have An Idea But Don't Know Where to Start: The Playbook of an Early-Stage Entrepreneur</p></p>
+            <p className="event2">3:15-4:00 Speaker Workshops 4 (4 speakers)<br /><p className="smallEventText">• Valentin Perez - Starting Companies in College and Right After College</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Maggie Bachenberg - Navigating Entrepreneurship at Brown and Getting Funded Before Graduation</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Elvia Perez - EmpowerU's Entrepreneurship Journey at Brown: How to Take Advantage of Brown's Resources & Classes</p><br /><p className="smallEventText" style={{marginTop: '0px'}}>• Jack Schaeffer - I Have An Idea But Don't Know Where to Start: The Playbook of an Early-Stage Entrepreneur</p></p>
             <p className="location2">Page-Robinson<br />Classrooms</p>
           </div>
           <div className="tableRow" style={{width: '90%', marginLeft: '10%', paddingBottom: '60px'}}>
