@@ -46,7 +46,7 @@ const Speakers = () => {
     {name: "Cliff Weitzman", title: "CEO of Speechify", headshot: Weitzman},
     // {name: "Miriam Altman", title: "Co-Founder and CEO of Kinvolved", headshot: Altman},
     {name: "Alex Pryor", title: " Co-Founder and Chief Cebador of Guayaki", headshot: Pryor},
-    {name: "Kathryn Moos", title: "Founder and Managing Director of OWYN", headshot: Moos},
+    // {name: "Kathryn Moos", title: "Founder and Managing Director of OWYN", headshot: Moos},
     {name: "Alex Rothberg", title: "Co-Founder & CTO of Intus Care", headshot: Rothburg},
     // {name: "Evan Jackson", title: "Co-Founder & COO of Intus Care", headshot: Jackson},
     // {name: "Jack Schaeffer Eliza Sternlicht", title: "Co-Founders of MediCircle", headshot: Schaeffer},
